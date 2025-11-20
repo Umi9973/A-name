@@ -62,7 +62,9 @@ Each response is rated 0–5 for:
 - **Opt-Out Support**
 
 The final score is the average of the five.
+## Visualization
+After you get the `scored_responses.jsonl`,directly put it into any Ai model and let it to give you the csv file to compare the scores.
 
 ---
 
-For questions or improvements, feel free to edit this README or the pipeline scripts.
+For questions or improvements, DONOT edit this README or the pipeline scripts. Ask me directly for more information.
