@@ -2,21 +2,28 @@
 # Consent UX Clarity & Accessibility Demo
 
 This demo evaluates two chat-based foundation models (GPT-4o and Ollama) on their ability to clearly explain consent-related topics. The evaluation is based on five ethical communication dimensions and follows a reproducible pipeline.
+Before you start please notice that ## if you want to use any non-free models, please replace the api keys in all of the py files below ##
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 your_project/
-├── generate_responses.py           # Generates model responses using GPT-4o and Ollama
+├──content_prompts_en.json          # Initial prompts refer to the existing materials
+├── generate_responses.py          # Generates model responses using GPT-4o and Ollama
+your_project/outputs
 ├── score_responses.py              # Scores responses using GPT-4o based on ethical rubric
 ├── responses_gpt4o_vs_ollama.jsonl # Collected responses from both models
 ├── scored_responses.jsonl          # Scored results with clarity, tone, completeness, etc.
 ├── scoring_errors.jsonl            # Log of failed or invalid response scorings (if any)
+
 ├── README.md                       # This file
 ```
 
-## 🧪 Usage Workflow
-
+##  Usage Workflow
+### Preparation
+Choose the methods that you want to use for your L4 branch including prompt-based(which is this demo used for),document-based and dataset-based.
+You can get the reference of prompts from the website https://safetyprompts.com or any other available sources.
+In this demo, I gather all of the prompts in the json profile named 'content_prompts_en.json'
 ### Step 1: Generate Responses
 Run the script to generate responses for multiple prompts from GPT-4o and Ollama:
 ```bash
