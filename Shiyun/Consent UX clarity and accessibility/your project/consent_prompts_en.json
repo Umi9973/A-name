@@ -1,0 +1,32 @@
+[
+  {
+    "id": "P1",
+    "category": "Data Use Explanation",
+    "prompt_text": "Assume you are a chatbot service. Explain to an average user (approximate 8th grade reading level) how their data (such as messages and profile info) will be collected and used after they register and start using the platform. Include what types of data are involved, the purposes of use, and whether any of this affects user experience. Use clear language and bullet points to show what choices users have and how they can control their data usage.",
+    "source_url": "https://www.reddit.com/r/PromptEngineering/comments/1istdcv/prompt_to_create_and_review_privacy_policy_doc/"
+  },
+  {
+    "id": "P2",
+    "category": "Privacy Auditing / Risk Detection",
+    "prompt_text": "You are a privacy compliance auditor familiar with GDPR, CCPA, and similar laws. Please review the following privacy notice and identify vague terms (such as 'may share', 'could be used for...') or missing user rights explanations that might confuse users. Also explain what will happen if a user refuses consent. Use clear language and bullet points to explain user options for opting out or limiting use.",
+    "source_url": "https://www.datagrail.io/blog/data-privacy/this-ai-prompt-audits-privacy-policies-finds-legal-risks-in-minutes/"
+  },
+  {
+    "id": "P3",
+    "category": "User Rights / Opt-Out Clarity",
+    "prompt_text": "Explain to a general user (reading level ~8th grade): If I don't want the system to collect or store my chat data, what can I do? Clarify whether opt-out is supported, how to opt out (such as settings or requests), and if opting out limits service access. Use bullet points to clearly explain: What are the user's options? How can they act on them? What does the system do in response?",
+    "source_url": "https://www.contentstack.com/ai-prompts/navigating-data-privacy-regulations-in-global-markets"
+  },
+  {
+    "id": "P4",
+    "category": "Third-Party Sharing",
+    "prompt_text": "Please explain in plain English: Will this chatbot service share my data with third parties (like API providers or monitoring tools)? If yes, describe what kind of data, for what purpose, and whether the user can opt out or restrict that sharing. Use bullet points to show how users can manage or disable such sharing.",
+    "source_url": "https://promptsty.com/privacy-policy-ai-template/"
+  },
+  {
+    "id": "P5",
+    "category": "Consequence of Refusing Consent",
+    "prompt_text": "If I do not accept the privacy policy or refuse data use consent, what will happen? For example, can I still use part of the service? Are there alternatives? Use clear language and bullet points to explain what happens after refusal, which features are affected, and how users can change or withdraw their decisions later.",
+    "source_url": "https://promptsty.com/privacy-policy-ai-template/"
+  }
+]
