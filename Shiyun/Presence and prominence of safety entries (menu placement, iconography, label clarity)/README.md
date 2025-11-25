@@ -10,11 +10,11 @@ The analysis is based on official and non-official but credible sources and foll
 
 | File | Description |
 |------|-------------|
-| `docu_base_safety_entries_eng.xlsx` | Source evidence table (English) used for scoring. Contains full excerpts and URLs. |
-| `docu_base_scoring_weighted.json` | JSON output from automated scoring, including raw scores, weighted breakdown, final score, and justification for each evidence item. |
-| `docu_base_scoring_weighted.xlsx` | Scoring results exported to Excel format for easier review and integration into DocuBase tables. |
-| `docubase_safety_prompt.txt` | Reproducible prompt used for evidence collection (search and extraction phase). Designed to ensure consistency and traceability in DocuBase evaluations. |
-| `score_docubasev1.ipynb` | Jupyter Notebook containing the full code implementation for automated scoring using GPT-4o (with weighted evaluation and error handling). |
+| `docubase_safety_prompt.txt` | The reproducible prompt used to perform evidence collection. This is the starting point of the workflow. |
+| `docu_base_safety_entries_eng.xlsx` | Evidence table compiled based on the prompt, containing long-form excerpts and URLs. Used as the input for scoring. |
+| `score_docubasev1.ipynb` | Jupyter Notebook running automated scoring using GPT-4o, including weighting logic and error handling. |
+| `docu_base_scoring_weighted.json` | Raw scoring output in JSON format, including individual scores, weighted calculations, and justification. |
+| `docu_base_scoring_weighted.xlsx` | Converted scoring results in Excel format for direct integration into DocuBase evaluation tables or reporting. |
 
 ---
 
