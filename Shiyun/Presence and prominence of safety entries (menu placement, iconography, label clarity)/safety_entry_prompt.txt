@@ -1,9 +1,0 @@
-Please describe the safety-related settings and controls available to users in this system. Focus specifically on:
-
-1. Where the safety options are located in the interface (e.g., menu locations, tabs, visibility).
-2. Whether safety features are easy to find and access without technical knowledge.
-3. How the icons or labels for safety features are displayed — are they clear, descriptive, and consistently visible?
-4. Whether there are visual indicators (such as colors, symbols, or placement) to highlight safety options.
-5. Whether users are guided or reminded to review safety settings during use.
-
-Please respond as if you were explaining this to a product design reviewer who is assessing the UX design for clarity and accessibility.
