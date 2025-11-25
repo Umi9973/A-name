@@ -1,0 +1,137 @@
+[
+    {
+        "scores": {
+            "menu_placement": 3,
+            "iconography": 3,
+            "label_clarity": 4,
+            "user_effort": 2,
+            "trust_confidence": 3
+        },
+        "weighted_final_score": 3.1,
+        "justification": "Menu visibility is moderate as it's nested in settings; iconography is clear but not overly prominent. The label 'Delete all' offers good clarity. Several steps are required for deletion, reducing user effort score. Trust and UX confidence are average as users need to explore settings to locate the option.",
+        "Evidence ID": "E1",
+        "Evidence Source": "US PIRG – “Your ChatGPT privacy questions answered”",
+        "individual_scores_unweighted": {
+            "menu_placement": 3,
+            "iconography": 3,
+            "label_clarity": 4,
+            "user_effort": 2,
+            "trust_confidence": 3
+        },
+        "weighted_scores_detailed": {
+            "menu_placement": 0.75,
+            "iconography": 0.6,
+            "label_clarity": 1.0,
+            "user_effort": 0.3,
+            "trust_confidence": 0.45
+        }
+    },
+    {
+        "scores": {
+            "menu_placement": 3,
+            "iconography": 4,
+            "label_clarity": 2,
+            "user_effort": 3,
+            "trust_confidence": 3
+        },
+        "weighted_final_score": 2.95,
+        "justification": "The menu is moderately accessible given its location under the profile icon. Iconography is clear, aiding in navigation. Label clarity is weak due to non-intuitive phrasing. Effort is reasonable with defined steps, but may require user navigation skills. Overall trust and UX confidence are average, hampered by vagueness in the label.",
+        "Evidence ID": "E2",
+        "Evidence Source": "Progress Learning – “Disable ChatGPT Data Training for Privacy Compliance”",
+        "individual_scores_unweighted": {
+            "menu_placement": 3,
+            "iconography": 4,
+            "label_clarity": 2,
+            "user_effort": 3,
+            "trust_confidence": 3
+        },
+        "weighted_scores_detailed": {
+            "menu_placement": 0.75,
+            "iconography": 0.8,
+            "label_clarity": 0.5,
+            "user_effort": 0.45,
+            "trust_confidence": 0.45
+        }
+    },
+    {
+        "scores": {
+            "menu_placement": 3,
+            "iconography": 3,
+            "label_clarity": 2,
+            "user_effort": 3,
+            "trust_confidence": 4
+        },
+        "weighted_final_score": 2.9,
+        "justification": "Menu placement is moderately visible and requires multiple steps. Iconography is average in prominence. The label’s combination of ‘history’ and ‘training’ complicates clarity. User effort is moderate due to layered access. Trust is bolstered by clear UI feedback but is slightly eroded by comprehension difficulty of the label.",
+        "Evidence ID": "E3",
+        "Evidence Source": "AirDroid – “How to Turn Off Chat History in ChatGPT?”",
+        "individual_scores_unweighted": {
+            "menu_placement": 3,
+            "iconography": 3,
+            "label_clarity": 2,
+            "user_effort": 3,
+            "trust_confidence": 4
+        },
+        "weighted_scores_detailed": {
+            "menu_placement": 0.75,
+            "iconography": 0.6,
+            "label_clarity": 0.5,
+            "user_effort": 0.45,
+            "trust_confidence": 0.6
+        }
+    },
+    {
+        "scores": {
+            "menu_placement": 2,
+            "iconography": 3,
+            "label_clarity": 4,
+            "user_effort": 2,
+            "trust_confidence": 3
+        },
+        "weighted_final_score": 2.85,
+        "justification": "Menu is initially hidden, requiring multiple steps to access. Iconography and labels are clear once found. User effort is low due to initial collapsed data controls, impacting visibility. Confidence in user experience is moderate, as the process is straightforward after discovery.",
+        "Evidence ID": "E4",
+        "Evidence Source": "ThreatDown – “How to keep your ChatGPT conversations out of its training data”",
+        "individual_scores_unweighted": {
+            "menu_placement": 2,
+            "iconography": 3,
+            "label_clarity": 4,
+            "user_effort": 2,
+            "trust_confidence": 3
+        },
+        "weighted_scores_detailed": {
+            "menu_placement": 0.5,
+            "iconography": 0.6,
+            "label_clarity": 1.0,
+            "user_effort": 0.3,
+            "trust_confidence": 0.45
+        }
+    },
+    {
+        "scores": {
+            "menu_placement": 3,
+            "iconography": 2,
+            "label_clarity": 2,
+            "user_effort": 3,
+            "trust_confidence": 2
+        },
+        "weighted_final_score": 2.4,
+        "justification": "The setting is moderately placed but not prominent for privacy. Iconography lacks visibility as there's no specific icon signaling privacy. The label is misleading, prioritizing marketing over clarity. User effort is reasonable with clear steps, though poorly signaled privacy focus. Trust is weakened by the non-transparent label.",
+        "Evidence ID": "E5",
+        "Evidence Source": "Tom’s Guide – “Keep your ChatGPT data private by opting out of training”",
+        "individual_scores_unweighted": {
+            "menu_placement": 3,
+            "iconography": 2,
+            "label_clarity": 2,
+            "user_effort": 3,
+            "trust_confidence": 2
+        },
+        "weighted_scores_detailed": {
+            "menu_placement": 0.75,
+            "iconography": 0.4,
+            "label_clarity": 0.5,
+            "user_effort": 0.45,
+            "trust_confidence": 0.3
+        }
+    }
+]

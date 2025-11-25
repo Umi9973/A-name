@@ -1,0 +1,15 @@
+Please search for and compile information regarding the prominence and visibility of safety-related interface entries in ChatGPT (including menu placement, iconography, and label clarity). Prioritize official documentation if available; if not, include reputable non-official sources such as privacy institutions, cybersecurity organizations, consumer protection groups, or widely recognized tech analysis media.
+
+The response must:
+1. Focus specifically on where users can find safety/privacy-related settings in the ChatGPT interface (e.g., steps such as Profile Icon → Settings → Data Controls).
+2. Identify whether the entry point is visually prominent or buried within menus, referencing icon visibility (e.g., temporary chat icon, toggle buttons), color usage (e.g., red Delete All button), and number of navigation steps.
+3. Evaluate the clarity of labels such as “Chat History & Training,” “Improve the model for everyone,” and “Delete all chats,” and determine whether these labels are intuitive from a safety/privacy perspective.
+4. Include detailed excerpts from each source (long excerpts allowed), in English whenever possible, and indicate the exact source URL for later referencing.
+5. Organize findings into a structured, document-ready format (preferably Markdown or table-ready).
+
+Deliverable:
+- Provide the compiled findings as a downloadable file.
+- Ensure content is suitable for use in an “ADA evidence collection” section of a docu-base branch.
+- Do NOT include unsupported speculation. Only reference direct user-interface descriptions or settings documentation, preferably with step-by-step UI references.
+
+This prompt will be used to reproduce the evidence collection stage of a docu-base evaluation process; therefore, completeness, reproducibility, and citation accuracy are required.
