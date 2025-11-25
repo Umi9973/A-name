@@ -68,3 +68,42 @@ The analysis is based on official and non-official but credible sources and foll
 ```bash
 pip install openai pandas
 export OPENAI_API_KEY="your_key_here"
+Then open and run:
+
+score_docubasev1.ipynb
+
+---
+
+## Notes on Usage
+
+The generated outputs include:
+
+- **`scores`**: raw criterion scores (1–5)
+- **`weighted_scores_detailed`**: per-dimension score multiplied by its assigned weight
+- **`weighted_final_score`**: total weighted score calculated as the sum of weighted dimensions
+- **`justification`**: concise rationale (≤70 words) for the assigned score
+
+The file **`docu_base_scoring_weighted.xlsx`** can be directly incorporated into DocuBase evidence and scoring tables for evaluation reporting.
+
+---
+
+## Recommended Next Steps
+
+- Integrate `docu_base_scoring_weighted.xlsx` into the scoring matrix of the Assignment 3 DocuBase evaluation.
+- Use `docubase_safety_prompt.txt` to document the reproducibility of the evidence acquisition phase.
+- Include a short methodology summary referencing this repository to demonstrate evaluation traceability, stability, and adherence to DocuBase measurement standards.
+
+---
+
+## Contact or Support
+
+For methodology or reproducibility inquiries, refer to the DocuBase evaluation framework documentation or contact the designated evaluation designer responsible for this branch.
+
+---
+
+This repository serves as the complete record of:
+
+- Prompt design for evidence collection  
+- Evidence extraction process (ADA methodology)  
+- Automated scoring logic implementation (GPT-4o)  
+- Final scoring outputs and data transformation artifacts
