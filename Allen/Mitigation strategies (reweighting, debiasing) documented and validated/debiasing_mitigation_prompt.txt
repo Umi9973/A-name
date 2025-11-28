@@ -1,0 +1,35 @@
+ADA Prompt – Debiasing / Mitigation Strategies (L4-5)
+------------------------------------------------------
+
+Please search for and compile all documentation describing debiasing techniques, mitigation strategies, and fairness interventions used in AI systems. Prioritize explicit evidence from:
+
+1. **GPT‑4o System Card** – model-level mitigation descriptions (safety tuning, RLHF, post‑training filters, bias audits).  
+2. **IBM AI Fairness 360 (AIF360)** – algorithmic mitigation techniques (pre‑processing, in‑processing, post‑processing).  
+3. **Mehrabi et al. (2021), “A Survey on Bias and Fairness in ML”** – taxonomy of bias sources and mitigation families.  
+
+Your response must:
+
+1. Extract verbatim evidence (long excerpts allowed) on:
+   - Pre‑processing mitigation (reweighting, resampling, disparate impact removal, data repair)
+   - In‑processing mitigation (fairness‑aware training objectives, adversarial debiasing)
+   - Post‑processing mitigation (threshold adjustments, equalized odds post‑processing)
+   - Fair representation learning (VAE, adversarial, disentanglement)
+   - Causal‑based fairness mitigation
+   - Toolkit‑based strategies (AIF360 algorithms)
+
+2. Provide page numbers for excerpts when available (e.g., for Mehrabi et al. ★ cite explicitly: fileciteturn5file0).
+
+3. Organize evidence as a Markdown/table-ready structure:
+   - Source metadata
+   - Extracted evidence (verbatim)
+   - Mapping to L4‑5 mitigation requirements
+   - Notes on validation evidence and known limitations
+
+4. Do NOT speculate. Only cite explicit strategies described in documents.
+
+5. Include canonical URLs/citations for:
+   - GPT‑4o System Card
+   - AIF360 Toolkit Documentation
+   - Mehrabi et al. (2021)
+
+This prompt is intended for ADA‑style document-based evidence collection for the L4‑5 indicator: “Mitigation strategies (reweighting, debiasing) documented and validated.”

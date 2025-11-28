@@ -1,0 +1,24 @@
+ADA Prompt – Access Gap Mitigation (L4-3)
+------------------------------------------------------
+
+Please search for and compile documentation related to access inequality, digital divides, equity of access, and mitigation programs intended to reduce disparities in AI usage or deployment. Prioritize explicit evidence from the following uploaded sources:
+
+- WHO “Ethics & Governance of Artificial Intelligence for Health” (2021) – digital health access gaps, inequality frameworks, infrastructure barriers.
+- EU Digital Services Act (Regulation 2022/2065) – obligations relevant to equitable access, accessibility requirements, vulnerable groups.
+- Any explicit passages describing structural access barriers (economic, geographic, linguistic, disability-related).
+
+The response must:
+1. Extract long verbatim evidence with page numbers on:
+   - digital divides (infrastructure, affordability, literacy, disability access)
+   - obligations to ensure accessibility, equitable service availability, or inclusion of vulnerable groups
+   - risk management requirements that reference access or fairness
+   - mitigation strategies proposed (capacity building, governance frameworks, multi-stakeholder interventions)
+2. Organize evidence in the following structure:
+   - Source metadata
+   - Extracted evidence
+   - Relevance to L4-3 Access Gap Mitigation
+   - Remaining gaps or missing disclosures
+3. Do NOT speculate; only reference explicit statements from documents.
+4. Include canonical citations or URLs for each source.
+
+This prompt supports ADA-style document-based evidence collection for the L4-3 Fairness indicator: “Access gap mitigation program.”

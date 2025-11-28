@@ -1,0 +1,25 @@
+ADA Prompt – Proxy / Representation Analysis (L4-2)
+------------------------------------------------------
+
+Please search for and compile all available documentation relevant to proxy attributes, representation bias, and causal or statistical methods for detecting when protected characteristics are indirectly encoded in AI system inputs, outputs, or datasets. Prioritize evidence from the following uploaded sources:
+
+- *Fairness and Machine Learning* (Barocas, Hardt, Narayanan) – “proxy discrimination”, “representational harm”, “latent variable inference”.
+- *Counterfactual Fairness* (Kusner et al., NIPS 2017) – causal graphs, proxy pathways, structural relationships.
+- NIST SP 1270 – systemic/statistical bias, proxy attributes, latent variable harms.
+
+The response must:
+1. Extract verbatim evidence with page numbers describing:
+   - What counts as a proxy attribute (e.g., ZIP code → race; browsing history → gender).
+   - How representation analysis is performed (causal graphs, counterfactual reasoning, correlation tests, variable importance, latent structure).
+   - Risks of indirect inference of protected attributes (NIST SP 1270 dataset & human bias sections).
+   - Documented harms when proxies encode societal or historical biases.
+2. Provide long verbatim quotations from source documents and indicate exact sections.
+3. Organize evidence into the following structure (Markdown/table-ready):
+   - Source metadata
+   - Extracted evidence
+   - How this evidence informs L4-2 Proxy/Representation Analysis
+   - Gaps/limitations (e.g., lack of formal OpenAI disclosure)
+4. Do NOT speculate; only use explicit content from documents.
+5. Include canonical citations or URLs for each source.
+
+This prompt is intended for ADA-style evidence collection for the L4-2 Fairness indicator: “Proxy or representation analysis performed where direct attributes unavailable.”

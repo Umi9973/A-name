@@ -1,0 +1,23 @@
+Please search for and compile all available documentation describing the demographic composition, geographic/locale representation, language distribution, and sampling strategy of datasets used to train or evaluate an AI system. Prioritize official documentation (e.g., “Datasheets for Datasets”, “Model Cards for Model Reporting”, NIST AI RMF). If no direct disclosures exist, incorporate reputable third‑party transparency analyses.
+
+The response must:
+1. Extract verbatim evidence from:
+   - **Datasheets for Datasets** (Gebru et al.)
+   - **Model Cards for Model Reporting** (Mitchell et al.)
+   - **NIST AI Risk Management Framework (AI RMF 1.0)**
+2. Focus on dataset representativeness, including:
+   - demographic coverage (age, gender, race/ethnicity, disability, etc.)
+   - geographic or locale distribution
+   - language distribution and accessibility
+   - sampling and data collection procedures
+   - data limitations identified by creators
+3. Provide long verbatim excerpts with page numbers.
+4. Include URLs or canonical citations for each source.
+5. Organize evidence into a Markdown/table-ready structure:
+   - Source metadata
+   - Extracted evidence
+   - Relevance to L4-1 Dataset Coverage
+   - Missing disclosures / transparency gaps
+6. Avoid speculation. Only use explicit content from documents.
+
+This prompt is intended for document-based ADA evidence collection for the L4‑1 Fairness indicator: “Dataset-level demographic and locale coverage is adequate for intended use.”
