@@ -1,6 +1,3 @@
-ADA Prompt – Access Gap Mitigation (L4-3)
-------------------------------------------------------
-
 Please search for and compile documentation related to access inequality, digital divides, equity of access, and mitigation programs intended to reduce disparities in AI usage or deployment. Prioritize explicit evidence from the following uploaded sources:
 
 - WHO “Ethics & Governance of Artificial Intelligence for Health” (2021) – digital health access gaps, inequality frameworks, infrastructure barriers.

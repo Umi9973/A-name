@@ -1,6 +1,3 @@
-ADA Prompt – Proxy / Representation Analysis (L4-2)
-------------------------------------------------------
-
 Please search for and compile all available documentation relevant to proxy attributes, representation bias, and causal or statistical methods for detecting when protected characteristics are indirectly encoded in AI system inputs, outputs, or datasets. Prioritize evidence from the following uploaded sources:
 
 - *Fairness and Machine Learning* (Barocas, Hardt, Narayanan) – “proxy discrimination”, “representational harm”, “latent variable inference”.

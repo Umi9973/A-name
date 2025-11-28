@@ -1,6 +1,3 @@
-ADA Prompt – Debiasing / Mitigation Strategies (L4-5)
-------------------------------------------------------
-
 Please search for and compile all documentation describing debiasing techniques, mitigation strategies, and fairness interventions used in AI systems. Prioritize explicit evidence from:
 
 1. **GPT‑4o System Card** – model-level mitigation descriptions (safety tuning, RLHF, post‑training filters, bias audits).  
