@@ -1,0 +1,137 @@
+[
+    {
+        "scores": {
+            "menu_placement": 2,
+            "iconography": 2,
+            "label_clarity": 2,
+            "user_effort": 2,
+            "trust_confidence": 3
+        },
+        "weighted_final_score": 2.15,
+        "justification": "Settings are buried within the profile, requiring 3–4 steps to access. Iconography is not mentioned as helpful. Labeling is unclear, focusing on contribution rather than privacy protection. Overall user effort is significant, which may affect trust and confidence negatively. Improvements are needed for better user experience and enhanced visibility.",
+        "Evidence ID": "C1",
+        "Evidence Source": "Privacy International – Claude Settings and Good Practices",
+        "individual_scores_unweighted": {
+            "menu_placement": 2,
+            "iconography": 2,
+            "label_clarity": 2,
+            "user_effort": 2,
+            "trust_confidence": 3
+        },
+        "weighted_scores_detailed": {
+            "menu_placement": 0.5,
+            "iconography": 0.4,
+            "label_clarity": 0.5,
+            "user_effort": 0.3,
+            "trust_confidence": 0.45
+        }
+    },
+    {
+        "scores": {
+            "menu_placement": 5,
+            "iconography": 5,
+            "label_clarity": 5,
+            "user_effort": 4,
+            "trust_confidence": 5
+        },
+        "weighted_final_score": 4.85,
+        "justification": "The incognito chat is prominently placed with a ghost icon at the top-right, ensuring visibility. Strong visual cues and clear labeling as 'Incognito chat' enhance user understanding and confidence. The only small drawback is the user action required to click the icon, but the overall design promotes trust and easy discovery.",
+        "Evidence ID": "C2",
+        "Evidence Source": "Anthropic Help Center – Using Incognito Chats",
+        "individual_scores_unweighted": {
+            "menu_placement": 5,
+            "iconography": 5,
+            "label_clarity": 5,
+            "user_effort": 4,
+            "trust_confidence": 5
+        },
+        "weighted_scores_detailed": {
+            "menu_placement": 1.25,
+            "iconography": 1.0,
+            "label_clarity": 1.25,
+            "user_effort": 0.6,
+            "trust_confidence": 0.75
+        }
+    },
+    {
+        "scores": {
+            "menu_placement": 2,
+            "iconography": 2,
+            "label_clarity": 2,
+            "user_effort": 2,
+            "trust_confidence": 2
+        },
+        "weighted_final_score": 2.0,
+        "justification": "The menu placement lacks clarity and visibility, with unclear steps on desktop. Iconography is not prominently described. The label's ambiguous nature detracts from understanding. Navigation complexity requires multiple steps, reducing accessibility and confidence, particularly for non-technical users. Each criterion scores uniformly low due to these issues.",
+        "Evidence ID": "C3",
+        "Evidence Source": "Anthropic Privacy Center – Model Improvement Settings",
+        "individual_scores_unweighted": {
+            "menu_placement": 2,
+            "iconography": 2,
+            "label_clarity": 2,
+            "user_effort": 2,
+            "trust_confidence": 2
+        },
+        "weighted_scores_detailed": {
+            "menu_placement": 0.5,
+            "iconography": 0.4,
+            "label_clarity": 0.5,
+            "user_effort": 0.3,
+            "trust_confidence": 0.3
+        }
+    },
+    {
+        "scores": {
+            "menu_placement": 3,
+            "iconography": 4,
+            "label_clarity": 3,
+            "user_effort": 3,
+            "trust_confidence": 2
+        },
+        "weighted_final_score": 3.05,
+        "justification": "Menu is moderately placed under Privacy but requires navigation effort. Iconography is clear with highlighted toggles. Label clarity is adequate but turned ON by default, potentially confusing users. Effort needed is moderate due to layered settings. Default toggled ON erodes user trust in proactive privacy protection.",
+        "Evidence ID": "C4",
+        "Evidence Source": "Tom's Guide – Claude Training Data Opt-Out",
+        "individual_scores_unweighted": {
+            "menu_placement": 3,
+            "iconography": 4,
+            "label_clarity": 3,
+            "user_effort": 3,
+            "trust_confidence": 2
+        },
+        "weighted_scores_detailed": {
+            "menu_placement": 0.75,
+            "iconography": 0.8,
+            "label_clarity": 0.75,
+            "user_effort": 0.45,
+            "trust_confidence": 0.3
+        }
+    },
+    {
+        "scores": {
+            "menu_placement": 3,
+            "iconography": 3,
+            "label_clarity": 4,
+            "user_effort": 2,
+            "trust_confidence": 4
+        },
+        "weighted_final_score": 3.25,
+        "justification": "Menu placement requires multiple steps to access; iconography is not highly prominent. Labels are clear but user effort is high due to multi-step workflow. Trust and UX confidence are strengthened by clear execution and warning dialogs.",
+        "Evidence ID": "C5",
+        "Evidence Source": "CometAPI – Claude Conversation History Clearing",
+        "individual_scores_unweighted": {
+            "menu_placement": 3,
+            "iconography": 3,
+            "label_clarity": 4,
+            "user_effort": 2,
+            "trust_confidence": 4
+        },
+        "weighted_scores_detailed": {
+            "menu_placement": 0.75,
+            "iconography": 0.6,
+            "label_clarity": 1.0,
+            "user_effort": 0.3,
+            "trust_confidence": 0.6
+        }
+    }
+]
