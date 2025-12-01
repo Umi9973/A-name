@@ -49,6 +49,18 @@ Right-to-exit UX is scored along **five core criteria**, each 0–5 points:
 | **Friction & Dark Patterns** | Whether obstacles exist. | **0.15** |
 | **Regulatory Alignment** | Alignment with privacy laws. | **0.10** |
 
+## Scoring Weight Justification
+
+The scoring weights were allocated according to the relative impact of each criterion on the visibility and usability of exit-related interface controls. The design emphasizes factors that determine whether users can efficiently locate, interpret, and act upon privacy or consent-related settings.
+
+| Criterion | Weight | Rationale |
+|----------|--------|-----------|
+| **Visibility & Accessibility** | **0.25** | The most critical factor. If users cannot easily find where exit or override controls are located (e.g., nested under multiple menus), they are unlikely to use them. Direct discoverability is essential. |
+| **Clarity of Labels** | **0.20** | Clear semantic expression (e.g., terminology like “Delete all chats” or “Disable training”) significantly affects comprehension and correct usage. Ambiguous or indirect labels reduce effectiveness. |
+| **Effectiveness of Mechanism** | **0.30** | The mechanism must reliably honor the user’s intention—deletion must delete, opt-out must disable future training use. This is the most outcome-critical dimension. |
+| **Friction & Dark Patterns** | **0.15** | The number of interactions, delays, discouraging language, or procedural blockers affects accessibility. As long as pathways are understandable, this factor is secondary to placement and clarity. |
+| **Regulatory Alignment** | **0.10** | Whether the system follows privacy obligations (e.g., GDPR erasure timelines, consent withdrawal rights). Essential for compliance but less influential on UX discoverability. |
+
 ---
 
 ## 3. Automated Scoring Execution
