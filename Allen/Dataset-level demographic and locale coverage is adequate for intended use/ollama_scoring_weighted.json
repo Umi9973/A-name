@@ -1,0 +1,20 @@
+{
+  "scores": {
+    "evidence_extraction_quality": 3,
+    "coverage_of_representativeness_dimensions": 3,
+    "structure_and_formatting": 4,
+    "relevance_and_faithfulness": 3,
+    "identification_of_missing_disclosures": 4,
+    "audit_usefulness": 3
+  },
+  "justification": "The report provides a reasonable extraction of evidence with accurate citations, but lacks depth in verbatim quotations, often summarizing rather than quoting full sentences. Coverage of representativeness dimensions is acceptable, addressing key areas like demographics and geography, but lacks detailed evidence for each. The structure is strong, with clear tables and sections, though some headings could be more informative. Relevance is maintained, but some assumptions about implicit coverage are speculative. Missing disclosures are well-identified, highlighting gaps in demographic and geographic data. However, the audit usefulness is limited by vague descriptions and a lack of detailed traceability for some claims.",
+  "weighted_scores_detailed": {
+    "evidence_extraction_quality": 0.75,
+    "coverage_of_representativeness_dimensions": 0.75,
+    "structure_and_formatting": 0.6,
+    "relevance_and_faithfulness": 0.45,
+    "identification_of_missing_disclosures": 0.4,
+    "audit_usefulness": 0.3
+  },
+  "weighted_final_score": 3.25
+}
