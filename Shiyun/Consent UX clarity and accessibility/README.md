@@ -1,5 +1,5 @@
 
-# Consent UX Clarity & Accessibility Demo
+# Consent UX Clarity & Accessibility 
 
 This demo evaluates two chat-based foundation models (GPT-4o and Ollama) on their ability to clearly explain consent-related topics. The evaluation is based on five ethical communication dimensions and follows a reproducible pipeline.
 Before you start please notice that ## if you want to use any non-free models, please replace the api keys in all of the py files below ##
