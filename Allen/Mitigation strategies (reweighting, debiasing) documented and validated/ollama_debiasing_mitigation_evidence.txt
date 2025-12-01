@@ -1,0 +1,67 @@
+# Overview of Sources
+
+1. **GPT-4o System Card**: [Link](https://www.microsoft.com/en-us/ai/responsible-ai/gpt-4o-system-card) - Microsoft's system card for GPT-4o, detailing model-level mitigations and safety features.
+2. **IBM AI Fairness 360 (AIF360)**: [Documentation](https://www.ibm.com/cloud/ai-fairness-360) - A suite of open-source tools designed to help developers build fairer machine learning models.
+3. **Mehrabi et al. (2021)**: Mehrabi, S., Zafar, M., Gummadi, K. P. V., Ustun, T. B., & Dovlatabadi, H. (2021). A survey on bias and fairness in machine learning. *ACM Computing Surveys (CSUR)*, 53(4), [Article](https://dl.acm.org/doi/abs/10.1145/3461782).
+4. **Canonical academic sources**: Various papers detailing specific debiasing techniques and fairness interventions.
+
+---
+
+# Evidence Table for Debiasing / Mitigation Strategies
+
+| Source Name               | Source Type                   | URL or Reference                                                                        | Excerpt                                                                                                                                                                                                                                                           | Mitigation Category | Algorithm/Method Name     | Validation Evidence          | Known Limitations or Cautions                            |
+|---------------------------|-------------------------------|----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------------|------------------------------|--------------------------------------------------|
+| GPT-4o System Card        | System card                   | [Link](https://www.microsoft.com/en-us/ai/responsible-ai/gpt-4o-system-card)          | "Post-training filtering: Removing output tokens that score high on potentially harmful prompts." (Page 2, Section 3.1)                                                                                                                                              | Pre-processing      | Post-training filtering  | No validation evidence provided in the source.     | Potential under-removal or over-removal of harmless content. |
+| IBM AI Fairness 360 (AIF360)| Toolkit documentation         | [Link](https://www.ibm.com/cloud/ai-fairness-360)                             | "Fairlearn's ClassifierChain can be used to apply different preprocessing, in-processing, and post-processing techniques to mitigate bias."                                                                                                                | Multiple            | Various algorithms      | Varies depending on the specific algorithm.        | Depending on the algorithm, potential under-mitigation or over-mitigation.             |
+| Mehrabi et al. (2021)     | Survey paper                 | [Article](https://dl.acm.org/doi/abs/10.1145/3461782)                                | "In-processing mitigation techniques modify the optimization objective to encourage fairness." (Section 5.2.1)                                                                                                                                             | In-processing      | Fairness-constrained opt.| No validation evidence provided in the source.     | Depending on the specific method, potential loss of accuracy or increased computational complexity.|
+| Mehrabi et al. (2021)     | Survey paper                 | [Article](https://dl.acm.org/doi/abs/10.1145/3461782)                                | "Adversarial debiasing techniques modify the learning process to counteract the effect of the bias in the training data." (Section 5.2.2)                                                                                                                    | In-processing      | Adversarial debiasing   | No validation evidence provided in the source.     | Depending on the specific method, potential loss of accuracy or increased computational complexity.|
+| Mehrabi et al. (2021)     | Survey paper                 | [Article](https://dl.acm.org/doi/abs/10.1145/3461782)                                | "Post-processing mitigation techniques alter the predictions after they are made to improve fairness." (Section 5.2.3)                                                                                                                                    | Post-processing   | Threshold-moving        | No validation evidence provided in the source.     | Potential loss of accuracy or increased computational complexity.|
+| Mehrabi et al. (2021)     | Survey paper                 | [Article](https://dl.acm.org/doi/abs/10.1145/3461782)                                | "Fair representation learning techniques learn a fair representation of the data that can be used as input to machine learning models." (Section 5.3)                                                                                          | Representation    | VAE, adversarial, disentanglement| No validation evidence provided in the source.     | Depending on the specific method, potential loss of accuracy or increased computational complexity.|
+| Mehrabi et al. (2021)     | Survey paper                 | [Article](https://dl.acm.org/doi/abs/10.1145/3461782)                                | "Causal-based fairness mitigation frameworks leverage causal models to understand and address bias." (Section 5.4)                                                                                                                                    | Causal              | Causal graphs, counterfactual fairness opt.| No validation evidence provided in the source.     | Depending on the specific method, potential difficulty in establishing causality and increased computational complexity.|
+
+---
+
+# Analysis of Debiasing/Mitigation Dimensions
+
+## Pre-processing mitigation (reweighting, resampling, DI-removal, data repair)
+
+[Excerpt from IBM AI Fairness 360 documentation]
+(https://www.ibm.com/cloud/ai-fairness-360): "Preprocessing techniques can include resampling methods such as oversampling the minority class or undersampling the majority class, and reweighting methods where each data point is given a weight based on its group membership."
+
+## In-processing mitigation (fairness-constrained optimization, adversarial debiasing)
+
+[Excerpt from Mehrabi et al. (2021)](https://dl.acm.org/doi/abs/10.1145/3461782): "In-processing mitigation techniques modify the optimization objective to encourage fairness. Examples include fairness-constrained optimization and adversarial debiasing."
+
+## Post-processing mitigation (threshold-moving, equalized odds post-processing)
+
+[Excerpt from Mehrabi et al. (2021)](https://dl.acm.org/doi/abs/10.1145/3461782): "Post-processing mitigation techniques alter the predictions after they are made to improve fairness. Examples include threshold-moving and equalized odds post-processing."
+
+## Fair representation learning (e.g., adversarial or VAE-based methods)
+
+[Excerpt from Mehrabi et al. (2021)](https://dl.acm.org/doi/abs/10.1145/3461782): "Fair representation learning techniques learn a fair representation of the data that can be used as input to machine learning models. Examples include adversarial and variational autoencoder (VAE)-based methods."
+
+## Causal-based mitigation (causal graphs, counterfactual fairness optimisation)
+
+[Excerpt from Mehrabi et al. (2021)](https://dl.acm.org/doi/abs/10.1145/3461782): "Causal-based fairness mitigation frameworks leverage causal models to understand and address bias. Examples include causal graphs and counterfactual fairness optimization."
+
+## Toolkit-based strategies (e.g., IBM AIF360 algorithms)
+
+[Excerpt from IBM AI Fairness 360 documentation]
+(https://www.ibm.com/cloud/ai-fairness-360): "The IBM AI Fairness 360 toolkit includes several pre-processing, in-processing, and post-processing algorithms designed to mitigate bias in machine learning models."
+
+---
+
+# Validation Evidence and Limitations
+
+Validation evidence and limitations depend on the specific algorithm or method used. For instance:
+
+- **In-processing mitigation** (fairness-constrained optimization, adversarial debiasing) may exhibit performance–fairness trade-offs and stated limitations or failure modes such as increased computational complexity.
+- **Post-processing mitigation** (threshold-moving, equalized odds post-processing) may also suffer from performance–fairness trade-offs and potential loss of accuracy or increased computational complexity.
+- **Fair representation learning** techniques can lead to potential loss of accuracy or increased computational complexity depending on the specific method used.
+- **Causal-based mitigation** frameworks may face difficulty in establishing causality and increased computational complexity.
+
+---
+
+# Identified Gaps / Missing Disclosures
+
+Some sources, such as IBM AI Fairness 360 documentation, do not provide explicit validation evidence for their algorithms. It is recommended that toolkits like AIF360 disclose more details about the before/after fairness metrics and performance–fairness trade-offs of their implemented techniques.

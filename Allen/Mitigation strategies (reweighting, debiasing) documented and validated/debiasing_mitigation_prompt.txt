@@ -1,32 +1,46 @@
-Please search for and compile all documentation describing debiasing techniques, mitigation strategies, and fairness interventions used in AI systems. Prioritize explicit evidence from:
+Please search for and compile all documentation describing debiasing techniques, mitigation strategies, and fairness interventions used in AI systems.
 
-1. **GPT‑4o System Card** – model-level mitigation descriptions (safety tuning, RLHF, post‑training filters, bias audits).  
-2. **IBM AI Fairness 360 (AIF360)** – algorithmic mitigation techniques (pre‑processing, in‑processing, post‑processing).  
-3. **Mehrabi et al. (2021), “A Survey on Bias and Fairness in ML”** – taxonomy of bias sources and mitigation families.  
-
-Your response must:
-
-1. Extract verbatim evidence (long excerpts allowed) on:
-   - Pre‑processing mitigation (reweighting, resampling, disparate impact removal, data repair)
-   - In‑processing mitigation (fairness‑aware training objectives, adversarial debiasing)
-   - Post‑processing mitigation (threshold adjustments, equalized odds post‑processing)
+Prioritize explicit evidence from:
+1. GPT-4o System Card – model-level mitigations (safety tuning, RLHF, bias reduction, post-training filtering).
+2. IBM AI Fairness 360 (AIF360) – algorithmic mitigation techniques.
+3. Mehrabi et al. (2021), “A Survey on Bias and Fairness in Machine Learning.”
+4. Additional canonical academic sources describing:
+   - Reweighting, data repair, disparate impact removal
+   - Adversarial debiasing, fairness constraints
+   - Equalized odds post-processing, threshold adjustments
    - Fair representation learning (VAE, adversarial, disentanglement)
-   - Causal‑based fairness mitigation
-   - Toolkit‑based strategies (AIF360 algorithms)
+   - Causal-based fairness mitigation frameworks
 
-2. Provide page numbers for excerpts when available (e.g., for Mehrabi et al. ★ cite explicitly: fileciteturn5file0).
+Your response MUST:
 
-3. Organize evidence as a Markdown/table-ready structure:
+1. Extract long verbatim evidence on:
+   - Pre-processing mitigation (reweighting, resampling, DI-removal, data repair)
+   - In-processing mitigation (fairness-constrained optimization, adversarial debiasing)
+   - Post-processing mitigation (threshold-moving, equalized odds post-processing)
+   - Fair representation learning
+   - Causal-based mitigation
+   - Toolkit-based strategies (AIF360 algorithms)
+
+2. Include page numbers when available.
+3. Provide canonical citations/URLs for ALL algorithms or frameworks mentioned.
+4. Organize evidence into a table structure:
    - Source metadata
-   - Extracted evidence (verbatim)
-   - Mapping to L4‑5 mitigation requirements
-   - Notes on validation evidence and known limitations
+   - Verbatim excerpt
+   - Mitigation category (pre / in / post / representation / causal)
+   - Mapping to L4-5 mitigation requirement
+   - Validation evidence (before/after metrics, known limitations)
+   - Known limitations or cautions
 
-4. Do NOT speculate. Only cite explicit strategies described in documents.
+5. Include an explicit taxonomy table showing:
+   - All mitigation methods
+   - Their categories
+   - Their relation to L4-5 required evidence
 
-5. Include canonical URLs/citations for:
-   - GPT‑4o System Card
-   - AIF360 Toolkit Documentation
-   - Mehrabi et al. (2021)
+6. DO NOT speculate or infer undocumented strategies.
+   Only extract techniques explicitly described in the sources.
+
+7. If no validation evidence exists for a method, explicitly note:
+   “No validation evidence provided in the source.”
+
 
 This prompt is intended for ADA‑style document-based evidence collection for the L4‑5 indicator: “Mitigation strategies (reweighting, debiasing) documented and validated.”
