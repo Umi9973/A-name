@@ -1,0 +1,18 @@
+Please search for and compile information regarding the availability and user experience of “right to exit or override” mechanisms in AI chatbot systems (with ChatGPT as the primary reference point). Focus on how users can withdraw consent, stop data usage, delete historical interactions, or override previous permissions/settings. Prioritize official documentation if available; if not, include reputable non-official sources such as data protection regulators, privacy advocacy groups, digital rights organizations, or well-established UX/tech research media.
+
+The response must:
+1. Identify where users can exercise exit or override rights in the system interface or documentation (e.g., steps such as Profile Icon → Settings → Data Controls → Delete All Chats or how to opt out of training usage).
+2. Analyze whether exiting/overriding is supported and effective, including whether users can revoke prior consent, disable data retention/training, or request full data removal.
+3. Assess the user experience related to exiting, including:
+   - Visibility and accessibility of exit/removal options (e.g., buried vs. direct access).
+   - Whether users face friction or discouraging language (e.g., “Are you sure?”, “This action cannot be undone” pop-ups).
+   - Clarity and interpretability of labels such as “Delete all chats”, “Clear conversations”, “Opt out of model training”, or “Disable personalization”.
+4. Include detailed excerpts from each source (long excerpts allowed) in English whenever possible, and specify the exact source URL for later referencing.
+5. Organize findings into a structured, document-ready format (preferably Markdown or table-ready), and clearly distinguish between:
+   - Exit mechanisms (e.g., delete data, disable features)
+   - Override mechanisms (e.g., changing previously selected settings or retracting consent)
+
+Deliverable:
+- Provide the compiled findings as a downloadable file.
+- Ensure content is suitable for use in the “ADA evidence collection” section of a docu-base evaluation process.
+- Do not include assumptions or speculative conclusions—only reference directly observed interface behaviors, documentation statements, or formal policy guidelines.

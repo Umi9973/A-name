@@ -1,0 +1,102 @@
+[
+    {
+        "scores": {
+            "visibility_accessibility": 4,
+            "clarity_labels": 4,
+            "effectiveness": 3,
+            "friction": 2,
+            "regulatory_alignment": 4
+        },
+        "weighted_final_score": 3.4,
+        "justification": "The exit was accessible but involved steps for paid users, reducing visibility. Labels were clear, emphasizing permanency. The mechanism worked for free users, but paid users faced delays. Friction was present due to required support contact. Overall, it aligns with regulatory standards, including GDPR.",
+        "Source": "Anthropic Help Center – Account Deletion Process (Document 1A)",
+        "URL": "https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account",
+        "weighted_scores_detailed": {
+            "visibility_accessibility": 1.0,
+            "clarity_labels": 0.8,
+            "effectiveness": 0.9,
+            "friction": 0.3,
+            "regulatory_alignment": 0.4
+        }
+    },
+    {
+        "scores": {
+            "visibility_accessibility": 4,
+            "clarity_labels": 3,
+            "effectiveness": 2,
+            "friction": 3,
+            "regulatory_alignment": 3
+        },
+        "weighted_final_score": 2.95,
+        "justification": "Visibility is generally good with clear routes on platforms, though third-party users face more complexity. Labels are somewhat clear but could better explain consequences. Deletion effectiveness is uncertain for third-party cases. Some friction exists for third-party users, indicating potential discouragement. Compliance appears adequate with basic rights addressed but not fully ensured in third-party integrations.",
+        "Source": "Anthropic Privacy Center – Account Deletion Details (Document 1B)",
+        "URL": "https://privacy.anthropic.com/en/articles/10023660-deleting-anthropic-accounts",
+        "weighted_scores_detailed": {
+            "visibility_accessibility": 1.0,
+            "clarity_labels": 0.6,
+            "effectiveness": 0.6,
+            "friction": 0.45,
+            "regulatory_alignment": 0.3
+        }
+    },
+    {
+        "scores": {
+            "visibility_accessibility": 4,
+            "clarity_labels": 4,
+            "effectiveness": 5,
+            "friction": 2,
+            "regulatory_alignment": 5
+        },
+        "weighted_final_score": 4.1,
+        "justification": "The exit process is clearly labeled and effective, meeting privacy regulations with a 14-day waiting period. Visibility is supported by a prominent 'Delete Account' button, but requiring manual disconnection of third-party apps creates friction. Labels are mostly clear, advising users to backup data before deletion, but can intimidate with irreversible wording.",
+        "Source": "ClaudeAI.wiki – Account Deletion Timeline and Recommendations (Document 1C)",
+        "URL": "https://claudeai.wiki/how-do-i-delete-my-claude-account-2024/",
+        "weighted_scores_detailed": {
+            "visibility_accessibility": 1.0,
+            "clarity_labels": 0.8,
+            "effectiveness": 1.5,
+            "friction": 0.3,
+            "regulatory_alignment": 0.5
+        }
+    },
+    {
+        "scores": {
+            "visibility_accessibility": 2,
+            "clarity_labels": 2,
+            "effectiveness": 1,
+            "friction": 1,
+            "regulatory_alignment": 1
+        },
+        "weighted_final_score": 1.45,
+        "justification": "The process to exit from Claude is not straightforward, with unclear labeling and a non-functional mechanism that traps users. The requirement to wait for a subscription to lapse increases unnecessary friction, possibly exploiting users for financial gain. Furthermore, potential privacy risks exist with outdated email access, indicating regulatory non-compliance, possibly violating data protection norms like GDPR.",
+        "Source": "Reddit r/ClaudeAI – Subscription and Deletion Friction (Document 1D)",
+        "URL": "https://rl.huuu.biz/r/ClaudeAI/comments/1kdaeg4/cannot_cancel_claude_subscription/",
+        "weighted_scores_detailed": {
+            "visibility_accessibility": 0.5,
+            "clarity_labels": 0.4,
+            "effectiveness": 0.3,
+            "friction": 0.15,
+            "regulatory_alignment": 0.1
+        }
+    },
+    {
+        "scores": {
+            "visibility_accessibility": 4,
+            "clarity_labels": 4,
+            "effectiveness": 3,
+            "friction": 4,
+            "regulatory_alignment": 3
+        },
+        "weighted_final_score": 3.6,
+        "justification": "The process is relatively easy to find and labels are clear, but data retention before final deletion could impact effectiveness and regulatory compliance. Users are informed about data deletion limitations, with no significant obstacles presented. However, back-end retention for 30 days might not strictly align with GDPR principles, thus impacting the overall score.",
+        "Source": "CometAPI – Claude Conversation History and Deletion (Document 2A)",
+        "URL": "https://www.cometapi.com/claudes-conversation-history-how-to-clear/",
+        "weighted_scores_detailed": {
+            "visibility_accessibility": 1.0,
+            "clarity_labels": 0.8,
+            "effectiveness": 0.9,
+            "friction": 0.6,
+            "regulatory_alignment": 0.3
+        }
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "scores": {
+            "visibility_accessibility": 4,
+            "clarity_labels": 4,
+            "effectiveness": 4,
+            "friction": 3,
+            "regulatory_alignment": 4
+        },
+        "weighted_final_score": 3.85,
+        "justification": "Exit processes are clearly labeled and mechanism works for chat deletion. A 30-day retention could cause minor user friction despite justification. Regulatory compliance appears aligned. Overall, the system is effective in honoring user actions, but could improve in reducing temporary data retention discomfort.",
+        "Source": "OpenAI Help Center - Chat and File Retention Policies",
+        "URL": "https://help.openai.com/en/articles/8983778-chat-and-file-retention-policies-in-chatgpt",
+        "weighted_scores_detailed": {
+            "visibility_accessibility": 1.0,
+            "clarity_labels": 0.8,
+            "effectiveness": 1.2,
+            "friction": 0.45,
+            "regulatory_alignment": 0.4
+        }
+    },
+    {
+        "scores": {
+            "visibility_accessibility": 4,
+            "clarity_labels": 4,
+            "effectiveness": 3,
+            "friction": 4,
+            "regulatory_alignment": 4
+        },
+        "weighted_final_score": 3.7,
+        "justification": "The controls are easily accessible and the labels are clear, explaining the impacts well. However, the mechanism partially fulfills the user’s intent as it does not affect past data. While users face limited friction, the setup aligns with GDPR by informing users about data use and offering partial control over future submissions.",
+        "Source": "OpenAI Help Center - Data Controls FAQ",
+        "URL": "https://help.openai.com/en/articles/7730893-data-controls-faq",
+        "weighted_scores_detailed": {
+            "visibility_accessibility": 1.0,
+            "clarity_labels": 0.8,
+            "effectiveness": 0.9,
+            "friction": 0.6,
+            "regulatory_alignment": 0.4
+        }
+    },
+    {
+        "scores": {
+            "visibility_accessibility": 2,
+            "clarity_labels": 4,
+            "effectiveness": 3,
+            "friction": 3,
+            "regulatory_alignment": 3
+        },
+        "weighted_final_score": 2.95,
+        "justification": "The feature is moderately accessible and clear, explaining data retention for safety. However, deletion takes up to 30 days, which may concern users. There’s potential friction with unclear temporary chat initiation. While likely compliant with privacy laws, improvements are needed in visibility and effectiveness.",
+        "Source": "OpenAI Help Center - Temporary Chat FAQ",
+        "URL": "https://help.openai.com/en/articles/8914046-temporary-chat-faq",
+        "weighted_scores_detailed": {
+            "visibility_accessibility": 0.5,
+            "clarity_labels": 0.8,
+            "effectiveness": 0.9,
+            "friction": 0.45,
+            "regulatory_alignment": 0.3
+        }
+    },
+    {
+        "scores": {
+            "visibility_accessibility": 3,
+            "clarity_labels": 4,
+            "effectiveness": 4,
+            "friction": 3,
+            "regulatory_alignment": 5
+        },
+        "weighted_final_score": 3.7,
+        "justification": "The visibility of exit options is moderate, with terms clearly explained and actions effective. Users encounter some friction but no blatant dark patterns. There's strong alignment with GDPR, ensuring compliance with data protection laws.",
+        "Source": "OpenAI Privacy Center",
+        "URL": "https://privacy.openai.com/policies",
+        "weighted_scores_detailed": {
+            "visibility_accessibility": 0.75,
+            "clarity_labels": 0.8,
+            "effectiveness": 1.2,
+            "friction": 0.45,
+            "regulatory_alignment": 0.5
+        }
+    },
+    {
+        "scores": {
+            "visibility_accessibility": 3,
+            "clarity_labels": 4,
+            "effectiveness": 3,
+            "friction": 3,
+            "regulatory_alignment": 4
+        },
+        "weighted_final_score": 3.3,
+        "justification": "The directive emphasizes accessible and clear mechanisms by the Garante requiring improvements by OpenAI. The labels are likely clear, but full effectiveness and minimal friction are questionable pending OpenAI's implementations. Regulatory compliance is addressed by adhering to the Garante's guidance but is yet to be fully realized in practice.",
+        "Source": "Italian DPA (Garante) Directive",
+        "URL": "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2023/04/the-italian-data-protection-authority-halts-chatgpt-s-data-proce.html",
+        "weighted_scores_detailed": {
+            "visibility_accessibility": 0.75,
+            "clarity_labels": 0.8,
+            "effectiveness": 0.9,
+            "friction": 0.45,
+            "regulatory_alignment": 0.4
+        }
+    }
+]
