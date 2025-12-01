@@ -1,5 +1,5 @@
 
-# Consent UX Tailored for Seniors (Plain Language, Large Controls, Confirm Steps) — Demo
+# Consent UX Tailored for Seniors (Plain Language, Large Controls, Confirm Steps)
 
 This demo evaluates two chat-based foundation models (GPT-4o and Ollama) on their ability to deliver senior-friendly consent explanations.  
 The evaluation focuses on users aged **65+**, emphasizing readability, visual accessibility, simplified interactions, and confirmation-step safety.
