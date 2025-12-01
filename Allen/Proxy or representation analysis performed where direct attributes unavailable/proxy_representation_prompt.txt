@@ -3,6 +3,7 @@ Please search for and compile all available documentation relevant to proxy attr
 - *Fairness and Machine Learning* (Barocas, Hardt, Narayanan) – “proxy discrimination”, “representational harm”, “latent variable inference”.
 - *Counterfactual Fairness* (Kusner et al., NIPS 2017) – causal graphs, proxy pathways, structural relationships.
 - NIST SP 1270 – systemic/statistical bias, proxy attributes, latent variable harms.
+- any other possible resources
 
 The response must:
 1. Extract verbatim evidence with page numbers describing:

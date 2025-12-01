@@ -1,0 +1,20 @@
+{
+  "scores": {
+    "evidence_extraction_quality": 4,
+    "coverage_of_proxy_representation_dimensions": 3,
+    "structure_and_formatting": 4,
+    "relevance_and_faithfulness": 4,
+    "identification_of_missing_disclosures": 3,
+    "audit_usefulness": 3
+  },
+  "justification": "The evidence report demonstrates strong evidence extraction quality, with accurate citations and full sentence quotations, though some sources lack page numbers. Coverage of proxy dimensions is reasonable, addressing key concepts and methods but lacking depth in certain areas like causal analysis. The structure is clear and organized, with consistent formatting. Relevance is maintained, with evidence grounded in source documents. However, the identification of missing disclosures is limited, as it does not specify which disclosures are absent in detail. Audit usefulness is adequate, providing a traceable audit trail, but could benefit from more explicit cross-model comparison guidance. Overall, the report is strong but has room for improvement in coverage and disclosure identification.",
+  "weighted_scores_detailed": {
+    "evidence_extraction_quality": 1.0,
+    "coverage_of_proxy_representation_dimensions": 0.75,
+    "structure_and_formatting": 0.6,
+    "relevance_and_faithfulness": 0.6,
+    "identification_of_missing_disclosures": 0.3,
+    "audit_usefulness": 0.3
+  },
+  "weighted_final_score": 3.55
+}

@@ -1,0 +1,80 @@
+# ADA-Style Evidence Report on Access Gap Mitigation for AI Systems
+
+## 1. Overview of Sources
+
+This report compiles evidence from key documents addressing access inequality, digital divides, and mitigation programs aimed at reducing disparities in AI usage or deployment. The primary sources include:
+
+1. **WHO “Ethics & Governance of Artificial Intelligence for Health” (2021)**: This document provides insights into digital health access gaps, inequality frameworks, and infrastructure barriers.
+2. **EU Digital Services Act (Regulation 2022/2065)**: This regulation outlines obligations relevant to equitable access, accessibility requirements, and the inclusion of vulnerable groups.
+
+These sources are analyzed to extract explicit evidence on digital divides, obligations for accessibility, risk management requirements, and proposed mitigation strategies.
+
+## 2. Evidence Table for Access Gaps and Mitigation Strategies
+
+| source_name | source_type | url_or_reference | excerpt | access_gap_theme | mitigation_or_governance_strategy | notes_on_vulnerable_groups_or_barriers |
+|-------------|-------------|------------------|---------|------------------|-----------------------------------|----------------------------------------|
+| WHO “Ethics & Governance of Artificial Intelligence for Health” (2021) | WHO guidance | [WHO AI for Health](https://www.who.int/publications/i/item/9789240029200) | "AI technologies can exacerbate existing health inequities if not carefully managed. Infrastructure disparities, such as lack of internet access, can prevent equitable access to AI-driven health solutions." (p. 34) | Digital divide | Infrastructure investment | Highlights the risk of exacerbating health inequities due to infrastructure disparities. |
+| EU Digital Services Act (Regulation 2022/2065) | EU regulation | [EU Digital Services Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065) | "Providers of intermediary services shall ensure that their services are accessible to persons with disabilities, in accordance with Union law harmonizing accessibility requirements for products and services." (Article 24) | Accessibility obligation | Legal compliance and accessibility standards | Emphasizes the need for services to be accessible to persons with disabilities. |
+| WHO “Ethics & Governance of Artificial Intelligence for Health” (2021) | WHO guidance | [WHO AI for Health](https://www.who.int/publications/i/item/9789240029200) | "Capacity building in digital literacy is essential to ensure that all populations can benefit from AI technologies in health." (p. 45) | Digital literacy | Capacity building | Focuses on enhancing digital literacy to bridge access gaps. |
+| EU Digital Services Act (Regulation 2022/2065) | EU regulation | [EU Digital Services Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065) | "The Act aims to protect vulnerable groups, including children, by ensuring that digital services are safe and accessible." (Recital 12) | Vulnerable groups | Safety and accessibility measures | Addresses the protection and inclusion of vulnerable groups, particularly children. |
+
+## 3. Analysis of Access Gap Mitigation Dimensions
+
+### Digital Divides
+
+#### Infrastructure
+- **WHO (2021)** highlights that infrastructure disparities, such as lack of internet access, can prevent equitable access to AI-driven health solutions. This underscores the need for infrastructure investment to bridge these gaps.
+
+#### Affordability
+- While not explicitly detailed in the excerpts, affordability remains a critical barrier, often intertwined with infrastructure and economic factors.
+
+#### Digital Literacy
+- The WHO document emphasizes the importance of capacity building in digital literacy to ensure equitable access to AI technologies. This involves educational initiatives to enhance understanding and usage of digital tools.
+
+#### Disability Access
+- The EU Digital Services Act mandates that services be accessible to persons with disabilities, aligning with broader Union law on accessibility requirements.
+
+### Structural Access Barriers
+
+#### Economic
+- Economic barriers are implicit in discussions of affordability and infrastructure, where lack of resources can limit access to necessary technologies.
+
+#### Geographic
+- Geographic disparities are often linked to infrastructure issues, where remote or rural areas may lack the necessary connectivity for AI technologies.
+
+#### Linguistic
+- Language barriers are not explicitly addressed in the provided excerpts but are a recognized factor in access inequality.
+
+#### Disability-Related
+- The EU regulation explicitly addresses the need for accessibility for persons with disabilities, ensuring that digital services are inclusive.
+
+### Legal / Policy Obligations
+
+- The EU Digital Services Act outlines legal obligations for service providers to ensure accessibility and protect vulnerable groups, reinforcing the importance of compliance with accessibility standards.
+
+### Risk Management and Governance Requirements
+
+- Risk management is implicit in the WHO's emphasis on preventing AI technologies from exacerbating health inequities. Governance frameworks must address these risks to ensure fair and equitable access.
+
+### Mitigation Strategies
+
+#### Capacity Building
+- WHO advocates for capacity building in digital literacy as a key strategy to mitigate access gaps.
+
+#### Infrastructure Investment
+- Investment in infrastructure is necessary to address disparities in internet access and connectivity, as highlighted by the WHO.
+
+#### Multi-Stakeholder Programs
+- While not explicitly mentioned, multi-stakeholder approaches are often necessary to address complex access issues involving various sectors and communities.
+
+### Monitoring, Evaluation, and Accountability Mechanisms
+
+- The documents do not provide explicit details on monitoring and evaluation mechanisms, indicating a potential gap in ensuring accountability for access gap mitigation.
+
+## 4. Identified Gaps / Missing Disclosures
+
+- **Lack of Explicit Mitigation Programs**: While the documents highlight the importance of addressing access gaps, there is a lack of detailed, explicit programs or initiatives outlined for mitigation.
+- **Lack of Monitoring Frameworks**: There is no explicit mention of frameworks for monitoring and evaluating the effectiveness of access gap mitigation strategies.
+- **No Disclosure of Measurement Methods**: The documents do not disclose how access gaps are measured or assessed, which is crucial for understanding the scope and impact of these gaps.
+
+In conclusion, while the WHO and EU documents provide a foundation for understanding access gaps and the need for mitigation, there are significant areas where further detail and explicit strategies are needed. Addressing these gaps is essential for ensuring equitable access to AI technologies and services.

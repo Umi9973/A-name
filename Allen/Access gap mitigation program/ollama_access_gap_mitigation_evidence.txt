@@ -1,0 +1,49 @@
+# Overview of Sources
+
+1. **World Health Organization (WHO) "Ethics & Governance of Artificial Intelligence for Health" (2021)**
+   - URL: [https://www.who.int/publications/i/item/9789240030568](https://www.who.int/publications/i/item/9789240030568)
+
+2. **European Union (EU) Digital Services Act (Regulation 2022/2065)**
+   - URL: [https://digital-strategy.ec.europa.eu/en/policies/digital-services-act](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act)
+
+# Evidence Table for Access Gaps and Mitigation Strategies
+
+| source_name            | source_type          | url_or_reference                                   | excerpt                                                                                                                                                                                                      | access_gap_theme              | mitigation_or_governance_strategy                                                                                                         | notes_on_vulnerable_groups_or_barriers       |
+|------------------------|----------------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| WHO (2021)            | Report              | [Link](https://www.who.int/publications/i/item/9789240030568) | "Digital health literacy is a key factor in overcoming digital divides, particularly for vulnerable populations such as older adults, people with disabilities, and those living in remote areas." (p. 140)     | Digital divide, disability access | Capacity building through digital health literacy programs                                                                               | Vulnerable groups: Older adults, people with disabilities, remote area residents                                              |
+| WHO (2021)            | Report              | [Link](https://www.who.int/publications/i/item/9789240030568) | "Infrastructure gaps remain a major barrier to digital health access, particularly in low- and middle-income countries." (p. 139)                                                                             | Infrastructure divide            | Infrastructure investment programs for improved digital health infrastructure in low- and middle-income countries                      | Not specified                              |
+| EU Digital Services Act (2022/2065) | Regulation          | [Link](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act)   | "The digital services act establishes obligations for providers to ensure their services are accessible to persons with disabilities and older consumers, as well as those with low levels of digital literacy."         | Disability access, digital literacy| Accessibility requirements for providers of online services                                                                             | Not specified                              |
+| EU Digital Services Act (2022/2065)  | Regulation          | [Link](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act)   | "Providers must establish and implement appropriate risk management systems to mitigate the risks of harm associated with their services, including those related to access and fairness."                  | Risk management requirements       | Implementation of risk management systems to address access and fairness risks in digital services                                | Not specified                              |
+| EU Digital Services Act (2022/2065)  | Regulation          | [Link](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act)   | "The act encourages multi-stakeholder dialogue and cooperation in the development and implementation of measures to address online risks, including those related to access and fairness."                  | Multi-stakeholder programs          | Encouragement of multi-stakeholder dialogues for addressing online risks                                                            | Not specified                              |
+
+# Analysis of Access Gap Mitigation Dimensions
+
+## Digital divides (infrastructure, affordability, digital literacy, disability access)
+
+According to the WHO report, digital health literacy is a key factor in overcoming digital divides for vulnerable populations such as older adults, people with disabilities, and those living in remote areas. Infrastructure gaps remain a major barrier to digital health access, particularly in low- and middle-income countries (WHO, 2021).
+
+## Structural access barriers (economic, geographic, linguistic, disability-related)
+
+The WHO report acknowledges the impact of infrastructure gaps on accessibility, particularly for vulnerable populations. In addition, the EU Digital Services Act obligates providers to ensure their services are accessible to persons with disabilities and older consumers, as well as those with low levels of digital literacy (EU DSA, 2022/2065).
+
+## Legal / policy obligations for equitable access and inclusion of vulnerable groups
+
+The EU Digital Services Act establishes obligations for providers to ensure their services are accessible to persons with disabilities and older consumers, as well as those with low levels of digital literacy (EU DSA, 2022/2065). The WHO report suggests that digital health access should be equitable and address the needs of vulnerable populations (WHO, 2021).
+
+## Risk management and governance requirements referring to access or fairness
+
+The EU Digital Services Act requires providers to establish and implement appropriate risk management systems to mitigate the risks of harm associated with their services, including those related to access and fairness (EU DSA, 2022/2065). The WHO report emphasizes the need for ethical governance frameworks in AI for health applications (WHO, 2021).
+
+## Mitigation strategies (capacity building, infrastructure investment, multi-stakeholder programs)
+
+The WHO report proposes capacity building through digital health literacy programs to overcome digital divides and address the needs of vulnerable populations. Infrastructure investment programs are suggested for improved digital health infrastructure in low- and middle-income countries. The EU Digital Services Act encourages multi-stakeholder dialogue and cooperation in the development and implementation of measures to address online risks (WHO, 2021; EU DSA, 2022/2065).
+
+## Monitoring, evaluation, and accountability mechanisms
+
+No explicit monitoring, evaluation, or accountability mechanisms for access gap mitigation were found in the provided sources. However, the WHO report encourages continuous evaluation and improvement of AI systems to ensure their ethical use (WHO, 2021). The EU Digital Services Act mentions the need for ongoing monitoring and enforcement mechanisms for providers' compliance with the established obligations (EU DSA, 2022/2065).
+
+# Identified Gaps / Missing Disclosures
+
+- Lack of explicit monitoring frameworks for access gap mitigation in digital health services (WHO, 2021)
+- Absence of disclosure on how access gaps are measured in the provided sources (both WHO and EU DSA)
+- No specific mention of geographic barriers or linguistic considerations in the provided sources.

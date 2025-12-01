@@ -1,0 +1,20 @@
+{
+  "scores": {
+    "evidence_extraction_quality": 4,
+    "coverage_of_access_gap_mitigation_dimensions": 3,
+    "structure_and_formatting": 4,
+    "relevance_and_faithfulness": 4,
+    "identification_of_missing_disclosures": 3,
+    "audit_usefulness": 3
+  },
+  "justification": "The report demonstrates strong evidence extraction quality, with accurate citations and full sentence quotations, though it lacks diversity in source types. Coverage of access gap mitigation dimensions is reasonable, addressing several key areas but missing explicit details on affordability and linguistic barriers. The structure is clear and organized, aiding readability. The relevance and faithfulness of the evidence are strong, with no unsupported assumptions. However, the identification of missing disclosures is only reasonable, as it highlights some gaps but lacks depth in exploring potential missing elements. The audit usefulness is acceptable, providing a traceable audit trail but could benefit from more detailed analysis. Overall, the report is strong but has clear areas for improvement, particularly in coverage and missing disclosures.",
+  "weighted_scores_detailed": {
+    "evidence_extraction_quality": 1.0,
+    "coverage_of_access_gap_mitigation_dimensions": 0.75,
+    "structure_and_formatting": 0.6,
+    "relevance_and_faithfulness": 0.6,
+    "identification_of_missing_disclosures": 0.3,
+    "audit_usefulness": 0.3
+  },
+  "weighted_final_score": 3.55
+}

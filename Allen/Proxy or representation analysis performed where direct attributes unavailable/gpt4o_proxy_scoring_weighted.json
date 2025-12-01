@@ -1,0 +1,20 @@
+{
+  "scores": {
+    "evidence_extraction_quality": 4,
+    "coverage_of_proxy_representation_dimensions": 4,
+    "structure_and_formatting": 4,
+    "relevance_and_faithfulness": 4,
+    "identification_of_missing_disclosures": 3,
+    "audit_usefulness": 3
+  },
+  "justification": "The report demonstrates strong evidence extraction quality with accurate citations and full sentence quotations, though it lacks some depth in source diversity. Coverage of proxy dimensions is comprehensive, addressing key concepts and methods, but could benefit from more real-world examples. The structure is clear and organized, aiding readability. Relevance is maintained throughout, with evidence directly related to proxy attributes. However, the identification of missing disclosures is less thorough, lacking specific details on OpenAI's practices. Audit usefulness is reasonable, but the report could improve traceability and cross-model comparison by including more standardized metrics. Overall, the report is strong but has room for improvement in real-world applicability and specific disclosures.",
+  "weighted_scores_detailed": {
+    "evidence_extraction_quality": 1.0,
+    "coverage_of_proxy_representation_dimensions": 1.0,
+    "structure_and_formatting": 0.6,
+    "relevance_and_faithfulness": 0.6,
+    "identification_of_missing_disclosures": 0.3,
+    "audit_usefulness": 0.3
+  },
+  "weighted_final_score": 3.8
+}

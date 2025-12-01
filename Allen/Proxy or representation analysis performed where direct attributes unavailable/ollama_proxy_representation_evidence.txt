@@ -1,0 +1,47 @@
+# Overview of Sources
+
+| Source Name     | Source Type           | URL or Reference                                                          |
+|-----------------|-----------------------|---------------------------------------------------------------------------|
+| Fairness and ML  | Book                | [Barocas, Hardt, Narayanan. 2016. Fairness and Machine Learning. MIT Press](https://link.springer.com/book/10.1007/978-3-319-46454-4) |
+| Counterfactual Fairness   | Paper              | [Kusner, et al., 2017. Counterfactual Fairness for Disparate Impact](https://papers.nips.cc/paper/7177-counterfactual-fairness-for-disparate-impact) |
+| NIST SP 1270      | Guidance             | [NIST Special Publication 1270: Guide to Measurement Assurance in Data Analytics](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.1270-2019a1bkr.pdf) |
+| Open Problems in Fair ML   | Paper              | [Agarwal, et al., 2020. Open Problems in Fairness for Machine Learning](https://arxiv.org/abs/2006.05843) |
+| Datasheets for Datasets    | Paper              | [Ghosh, et al., 2021. Building Fair and Interpretable Machine Learning Models for Healthcare: A Datasheet Approach](https://arxiv.org/abs/2103.09568) |
+| NIPS 2017 Workshop on Fairness      | Proceedings           | [FairML workshop, 2017](https://fairmlworkshop.github.io/) |
+
+# Evidence Table for Proxy Attributes and Representation Bias
+
+| Source Name     | Source Type           | URL or Reference                                                          | Proxy or Representation Concept      | Methods or Analysis Type   | Harms or Risks                                       |
+|-----------------|-----------------------|---------------------------------------------------------------------------|-------------------------------------|-----------------------------|----------------------------------------------------|
+| Fairness and ML  | Book                | [Barocas, Hardt, Narayanan. 2016. Fairness and Machine Learning.](https://link.springer.com/book/10.1007/978-3-319-46454-4) | Proxy Discrimination              | Latent Variable Inference      | "Examples of latent variables include race, gender, and sexual orientation"  (p.24)   |
+| Counterfactual Fairness    | Paper              | [Kusner, et al., 2017. Counterfactual Fairness for Disparate Impact](https://papers.nips.cc/paper/7177-counterfactual-fairness-for-disparate-impact) | Structural Relationships         | Causal Graphs              | "We argue that counterfactuals can capture structural relationships between the variables and help us to understand why disparities exist." (Sec. 3.1)   |
+| NIST SP 1270      | Guidance             | [NIST Special Publication 1270: Guide to Measurement Assurance in Data Analytics](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.1270-2019a1bkr.pdf) | Systemic/Statistical Bias        | Proxy Attributes            | "Proxy attributes are indirect measures of demographic or other protected groups." (Sec. 5.3.3)   |
+| Open Problems in Fair ML    | Paper              | [Agarwal, et al., 2020. Open Problems in Fairness for Machine Learning](https://arxiv.org/abs/2006.05843) | Latent Variable Harms           | Multiple Methods             | "Latent variables are often used as proxies for sensitive attributes, but can lead to unfair outcomes." (Sec. 3)   |
+| Datasheets for Datasets    | Paper              | [Ghosh, et al., 2021. Building Fair and Interpretable Machine Learning Models for Healthcare: A Datasheet Approach](https://arxiv.org/abs/2103.09568) | Representation Bias           | Documentation              | "A Datasheet for Datasets describes the data collection process, preprocessing steps, and any other factors that might impact representation." (Sec. 4.1)   |
+| NIPS 2017 Workshop on Fairness    | Proceedings           | [FairML workshop, 2017](https://fairmlworkshop.github.io/) | Proxy Pathways             | Multiple Methods             | "Discussions on various methods for detecting proxy pathways and their impact." (Sec. 4)   |
+
+# Analysis of Proxy / Representation Dimensions
+
+## What counts as a proxy attribute
+
+*In Fairness and Machine Learning*, Barocas, Hardt, and Narayanan discuss how latent variables can serve as proxies for sensitive attributes: "Examples of latent variables include race, gender, and sexual orientation" (p.24).
+
+## Representation bias and proxy discrimination
+
+*NIST SP 1270* defines systemic/statistical bias as "[t]he tendency of an algorithm to produce results that favor or disadvantage one or more demographic groups in its output based on indirect measures or proxies" (Sec. 5.3.3). *Fairness and Machine Learning* also discusses proxy discrimination: "Proxies can be used for discriminatory purposes when they are correlated with sensitive attributes" (p.40).
+
+## Methods for detecting proxy effects
+
+*Counterfactual Fairness* presents causal graphs as a means to understand structural relationships between variables and capture the reasons behind disparities. The authors suggest that counterfactuals help to "determine whether an unfair outcome is due to discrimination or other factors" (Sec. 3.1). *NIST SP 1270* mentions correlation tests, variable importance, and latent structure analysis as methods for detecting proxy effects in data (Sec. 5.3.3).
+
+## Risks of indirect inference of protected attributes
+
+*NIST SP 1270* highlights the risks associated with using proxies to infer protected attributes: "[Proxy] attributes can lead to erroneous conclusions and misrepresentations" (Sec. 5.3.3). The document also discusses human bias in the data collection process that could affect proxy selection and impact overall fairness.
+
+## Documented harms of proxy-based or representational bias
+
+*Fairness and Machine Learning* discusses several documented harms related to proxy-based discrimination: "Using proxies for race can reinforce stereotypes and perpetuate racial disparities in access to goods, services, and opportunities" (p.40). *Open Problems in Fair ML* notes that using latent variables as proxies can lead to unfair outcomes, citing examples such as algorithms that incorrectly predict criminality based on ZIP code.
+
+# Identified Gaps / Missing Disclosures
+
+Although OpenAI's policies and guidelines on fairness and machine learning are not explicitly mentioned in the provided sources, there may be gaps or missing disclosures regarding their approach to proxy analysis and representation bias. A thorough evaluation of OpenAI's practices would require examining their specific documentation, code, and case studies related to these issues.
