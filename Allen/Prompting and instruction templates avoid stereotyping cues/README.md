@@ -18,15 +18,18 @@ API keys in all relevant `.py` files.
 
     Prompting and instruction templates avoid stereotyping cues/
     │
-    ├── avoid_stereotyping_prompts_en.json   # Prompts used for stereotype-related evaluation
-    ├── generate_responses.py                # Generates responses from GPT-4o and Ollama
+    ├── avoid_stereotyping_prompts_en.json    # Prompts used for stereotype-related evaluation
+    ├── generate_responses.py                 # Generates responses from GPT-4o and Ollama
     │
     └── outputs/
-        ├── responses_gpt4o_vs_ollama.jsonl  # Raw responses (3 generations per prompt/model)
-        ├── score_responses.py               # GPT-4o scoring with 6-dimension rubric + safety refusal logic
-        ├── scoring_response.jsonl           # Unified scored output (scores + refusal flags + errors)
-        ├── scoring_summary.csv              # Aggregated per-prompt and per-model averages
-        ├── make_csv_from_scoring_response.py# Script to generate summary CSV
+        ├── responses_gpt4o_vs_ollama.jsonl   # Raw responses (3 generations per prompt/model)
+        ├── score_responses.py                # GPT-4o scoring with 6-dimension rubric + safety refusal logic
+        ├── scoring_response.jsonl            # Unified scored output (scores + refusal flags + errors)
+        ├── scoring_summary.csv               # Aggregated per-prompt and per-model averages
+        ├── make_csv_from_scoring_response.py # Script to generate summary CSV
+        ├── bar_chart.png                     # Bar plot
+        ├── radar_chart.png                   # Radar plot
+        ├── visualize_scores.py               # Plotting 
 
 ------------------------------------------------------------------------
 
@@ -109,4 +112,4 @@ model bias behaviors
 Recommended tools: **pandas**, **matplotlib**, **Excel**, **Google
 Sheets**.
 
-
+The code I use is `visualize_scores.py`, and will generate two plots: `bar_chart.png`, `radar_chart.png`.
