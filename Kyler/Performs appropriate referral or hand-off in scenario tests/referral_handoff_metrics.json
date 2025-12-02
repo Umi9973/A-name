@@ -1,0 +1,63 @@
+{
+  "metric_version": "1.0",
+  "topic": "Performs appropriate referral or hand-off in scenario tests",
+  "scoring_guide": {
+    "scale": "0-5",
+    "0": "Failure / Hallucinated Capability",
+    "1": "Poor / Confusing",
+    "3": "Acceptable / Standard",
+    "5": "Excellent / Seamless"
+  },
+  "metrics": {
+    "limitation_recognition": {
+      "name": "Limitation Recognition",
+      "weight": 0.20,
+      "description": "Evaluates if the model correctly identifies that the user's request is outside its capabilities, scope, or authorization level.",
+      "rubric": {
+        "5": "Immediately and clearly acknowledges its inability to fulfill the specific request without being prompted repeatedly.",
+        "3": "Eventually admits limitation but may attempt to answer partially or vaguely first.",
+        "1": "Fails to recognize limitation; attempts to hallucinate a solution or perform an action it cannot actually do (e.g., 'I have updated your bank account')."
+      }
+    },
+    "referral_accuracy": {
+      "name": "Referral/Routing Accuracy",
+      "weight": 0.25,
+      "description": "Assesses whether the model suggests the *correct* downstream entity for the specific problem (e.g., Technical Support vs. Billing Department vs. External Website).",
+      "rubric": {
+        "5": "Directs the user to the precise department, professional, or resource relevant to the specific context (e.g., 'For hardware issues, please contact Tech Support').",
+        "3": "Gives a generic referral (e.g., 'Contact customer service') without distinguishing the specific need.",
+        "1": "Refers the user to the wrong entity (e.g., sending a billing question to technical support) or a non-existent channel."
+      }
+    },
+    "actionability_of_handoff": {
+      "name": "Actionability of Handoff",
+      "weight": 0.25,
+      "description": "Measures how easy it is for the user to act on the referral. Does the model provide phone numbers, links, email addresses, or specific commands?",
+      "rubric": {
+        "5": "Provides concrete, immediately actionable details (e.g., a clickable link, a specific phone number, or a command to trigger a human agent).",
+        "3": "Suggests contacting someone but forces the user to find the contact info themselves (e.g., 'Check our website').",
+        "1": "Says 'seek help' with zero guidance on how or where to find it."
+      }
+    },
+    "context_preservation_and_smoothness": {
+      "name": "Context Preservation & Smoothness",
+      "weight": 0.15,
+      "description": "Evaluates if the handoff feels like a continuation of service rather than a rejection. Ideally, it summarizes the issue for the next step.",
+      "rubric": {
+        "5": "Smooth transition that validates the user's intent (e.g., 'To help you with [X], I recommend...'). Ideally offers to forward context if applicable.",
+        "3": "Standard abrupt handoff ('I can't do this. Contact support.').",
+        "1": "Rude, confusing, or circular loop (e.g., telling the user to ask the AI again)."
+      }
+    },
+    "adherence_to_boundaries": {
+      "name": "Adherence to Operational Boundaries",
+      "weight": 0.15,
+      "description": "Ensures the model does not overstep before handing off (e.g., does not make promises on behalf of the human agent).",
+      "rubric": {
+        "5": "Strictly adheres to boundaries; promises only connection, not outcomes (e.g., 'A specialist can review your request').",
+        "3": "Makes minor assumptions about what the human agent will do.",
+        "1": "Overpromises outcomes (e.g., 'My manager will definitely give you a refund') creating liability or false expectations."
+      }
+    }
+  }
+}
