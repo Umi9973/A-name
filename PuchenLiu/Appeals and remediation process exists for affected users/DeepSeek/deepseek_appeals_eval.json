@@ -1,0 +1,86 @@
+[
+  {
+    "document_id": "deepseek_privacy_zh",
+    "document_title": "DeepSeek Privacy Policy (Chinese Version)",
+    "scores": {
+      "channels_and_clarity": {
+        "score": 3,
+        "justification": "The document provides clear appeal and feedback channels in Chapter 9 (“How to Contact Us”), including an in‑product ‘Contact Us’ entry and a dedicated email address (privacy@deepseek.com). It states that users may be required to submit identity credentials, contact information, and written requests. Chapters 4 and 6 repeatedly mention that rights requests, complaints, and appeals may be exercised using the Chapter 9 channels. The purposes of use (privacy inquiries, suggestions, complaints, and reports) are clearly stated. However, the policy does not distinguish specialized channels for different types of appeals, nor does it offer offline or regulatory authority contact options."
+      },
+      "accessibility_and_usability": {
+        "score": 3,
+        "justification": "The policy is written in simplified Chinese with a clear structure, table of contents, and bold highlighting of key terms. It provides multiple concrete in‑product operation paths (e.g., closing permissions, exporting/deleting chat history, account deletion), making rights execution practical. Users may file complaints or rights requests via the interface or email, and the policy commits to responding within 15 working days. However, it does not mention accessibility accommodations, multilingual support, plain‑language summaries, or templates for filing complaints. Step‑by‑step appeal instructions are also absent."
+      },
+      "scope_of_issues_and_rights": {
+        "score": 3,
+        "justification": "Chapter 6 enumerates a wide set of personal information rights: the right to be informed, decision‑making rights, rights to restrict or refuse processing, access and copying rights, data portability, correction and supplementation, deletion, and the right to request explanation of processing rules. Execution paths are provided both through product settings and contact channels. The policy also grants certain rights to close relatives of deceased users. It repeatedly mentions that users may file complaints, appeals, and reports. However, it does not explicitly address appeals related to automated decision‑making, algorithmic bias, model outputs, or platform moderation decisions such as account suspension—issues beyond traditional privacy rights."
+      },
+      "procedure_timelines_and_escalation": {
+        "score": 2,
+        "justification": "The policy commits in multiple sections (Chapter 6 sections 2.2, 2.3, 4 and Chapter 9) to responding to rights requests or complaints within 15 working days after verifying user identity. It also states that in cases of data breaches, DeepSeek will provide timely notification and report to regulators as required. However, it does not describe the procedural steps of handling appeals (e.g., intake, review stages, decision, re‑evaluation). It also lacks internal escalation paths and external remediation mechanisms such as regulatory complaint portals, arbitration, or judicial review pathways. No guidance is offered for users who disagree with outcomes or experience delays."
+      },
+      "remedy_effectiveness_and_accountability": {
+        "score": 2,
+        "justification": "The policy offers multiple substantive remedies: access, copying, correction, supplementation, deletion, processing restriction, data portability, disabling permissions, opting out of data use for model training, and account deletion. It also provides notification and mitigation measures for data breaches, and commits to processing requests within a reasonable timeframe. However, the policy does not address compensation, corrective actions for wrongful decisions, independent audits, compliance officer responsibilities, transparency reporting, or mechanisms for reviewing refused requests. It also lacks a structured appeals review mechanism. As a result, the strength of accountability and remediation is limited."
+      }
+    },
+    "overall_score": 2.6,
+    "overall_summary": "This privacy policy provides a relatively complete framework for personal information rights and complaint mechanisms: it enumerates numerous data rights, offers both in‑product and email contact channels, provides clear operational pathways, and commits to a 15‑working‑day response period. Users may request access, correction, deletion, data export, the closing of permissions, withdrawal from data use for model training, and account deletion. The policy repeatedly notes that these channels may also be used for complaints and feedback. However, the mechanism focuses primarily on data protection compliance and does not cover broader AI‑related decision appeals or content governance issues. It lacks detailed procedural steps, internal escalation, external regulatory or judicial pathways, and independent oversight or transparency mechanisms. Overall, it achieves a mid‑to‑upper level of compliance but remains below international best practices."
+  },
+  {
+    "document_id": "deepseek_privacy_en",
+    "document_title": "DeepSeek Privacy Policy (EN)",
+    "scores": {
+      "channels_and_clarity": {
+        "score": 3,
+        "justification": "The policy clearly identifies the data controller (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.) and provides a primary contact channel (privacy@deepseek.com) for questions, rights requests, and appeals. It also references a 'Contact us' section on the website and, for EEA/UK users, a regional representative (Prighter) with a dedicated email and portal link for data subject requests. The purposes of contact (questions, exercising rights, appeals, complaints) are reasonably clear. However, there is no dedicated, distinct channel specifically for contesting automated decisions or model outputs beyond the general privacy email, and no structured web form or in-product mechanism is described. Clarity is good but not best practice-level multi-channel, role-specific routing."
+      },
+      "accessibility_and_usability": {
+        "score": 2,
+        "justification": "The policy is written in generally understandable language and outlines how to submit requests and appeals via email, including for correction/removal of inaccurate personal data in model outputs. It acknowledges regional rights and provides a regional representative for EU/UK, which supports accessibility across jurisdictions. However, it does not describe language support, accessibility accommodations (e.g., for disabilities), or alternative non-digital channels. There is no description of user interface flows (e.g., in-app rights dashboards or guided forms) beyond basic settings for chat history and account deletion. Usability of the appeals/remediation process is therefore moderate but not strongly supported or detailed."
+      },
+      "scope_of_issues_and_rights": {
+        "score": 3,
+        "justification": "The policy provides a broad set of data subject rights aligned with GDPR and similar laws: access, rectification, erasure, restriction, portability, objection, withdrawal of consent, and rights related to automated decision-making. It explicitly allows appeals of denied requests and mentions the right to complain to competent authorities. It also specifically addresses requests to correct or remove factually inaccurate personal data in model outputs. However, the scope is focused on data protection/privacy rights; it does not explicitly cover broader AI-related harms (e.g., discrimination, safety harms, content harms) or non-privacy human rights impacts as contemplated by OECD AI Principles and UNGPs. There is no explicit mention of contesting content moderation decisions or other platform decisions beyond data processing."
+      },
+      "procedure_timelines_and_escalation": {
+        "score": 2,
+        "justification": "The policy explains that users or authorized agents can submit requests via email, that identity may be verified, and that users can appeal denied requests via the same email. It also notes that, depending on jurisdiction, users may escalate to data protection authorities. However, it does not specify any concrete timelines for acknowledging or resolving requests or appeals, nor service levels (e.g., GDPR-style one-month response) even in the EEA/UK section. The escalation path is limited to supervisory authorities; there is no internal multi-level escalation structure, ombudsperson, or independent review mechanism described. As a result, procedural clarity and predictability are partial but not robust."
+      },
+      "remedy_effectiveness_and_accountability": {
+        "score": 2,
+        "justification": "The policy commits not to discriminate against users for exercising privacy rights and describes potential remedies such as rectification, deletion, restriction, and correction/removal of inaccurate personal data in model outputs, as well as account and chat history deletion. It references legal bases, retention practices, and supervisory authority oversight, which support some accountability. However, it does not describe how effectiveness of remedies is monitored, how often requests are granted or denied, or any internal governance, audits, or transparency reporting about handling of rights requests and appeals. There is no mention of independent oversight, grievance tracking, or systematic remediation of systemic issues discovered through complaints, as encouraged by UNGPs, NIST AI RMF, or Santa Clara Principles. Remedies are available but their robustness and accountability mechanisms are not well detailed."
+      }
+    },
+    "overall_score": 2.4,
+    "overall_summary": "The DeepSeek Privacy Policy provides a reasonably clear and legally aligned framework for data subject rights and related appeals, especially for EEA/UK users, including contact channels, a broad set of privacy rights, and the ability to appeal denied requests and escalate to supervisory authorities. It also acknowledges correction/removal requests for inaccurate personal data in model outputs. However, it lacks detailed timelines, structured multi-level escalation, and explicit mechanisms for monitoring and reporting on the effectiveness of remedies. The scope is largely limited to data protection issues and does not systematically address broader AI-related harms or non-privacy human rights impacts. Overall, the policy demonstrates moderate but not best-practice alignment with OECD AI Principles, UNGPs, GDPR, NIST AI RMF, and Santa Clara Principles in terms of appeals and remediation."
+  },
+  {
+    "document_id": "deepseek_terms_en",
+    "document_title": "DeepSeek Terms of Use (EN)",
+    "scores": {
+      "channels_and_clarity": {
+        "score": 3,
+        "justification": "The document provides clear contact and complaint channels: an in-product \"Contact Us\" button (Sections 6 and 10.2) and specific email addresses for chat and platform (service@deepseek.com, api-service@deepseek.com). It explicitly invites users to report IP infringements, illegal or false information, violations of the Terms, and to provide comments and suggestions (Section 6). It also notes that users can appeal account recovery issues (Section 2.4) and that users will be given an opportunity to explain or object when their information is suspected to be inaccurate or illegal (Section 2.2). However, it does not clearly distinguish between different types of appeals (e.g., content moderation vs. account sanctions vs. data issues), nor does it describe what information must be included in a complaint or how decisions will be communicated. There is no explicit, structured explanation of an appeals mechanism for model outputs or moderation decisions, so it falls short of best-practice clarity under OECD, UNGP, and Santa Clara Principles."
+      },
+      "accessibility_and_usability": {
+        "score": 2,
+        "justification": "The policy is written in relatively clear language and is available via the official website, and it references an in-product complaint portal, which supports usability. It mentions minors and guardians (Section 2.1), showing some attention to vulnerable users. However, there is no mention of language accessibility beyond English, no reference to disability accommodations or alternative formats, and no simplified or layered explanation of complaint/appeal processes. The complaint channels are functional but not strongly user-centered or designed for ease of navigation, and there is no guidance on how users can track the status of their complaints. This aligns with a basic but not robust level of accessibility and usability."
+      },
+      "scope_of_issues_and_rights": {
+        "score": 2,
+        "justification": "The document allows users to complain about IP infringement, illegal or false information, and violations of the Terms (Section 6), and to raise opinions and suggestions about the service (Sections 1.4, 6, 10.2). It also provides for user objections when registration information is challenged (Section 2.2) and for appeals in case of account/password loss (Section 2.4). However, it does not explicitly recognize user rights to contest automated decisions, content moderation outcomes, or profiling, nor does it reference data subject rights under GDPR-like frameworks (these are presumably in the Privacy Policy but not here). There is no explicit mention of rights to explanation, correction of outputs, non-discrimination, or human review of impactful decisions, as recommended by OECD AI Principles, UNGPs, and NIST AI RMF. The scope of issues that can be raised is implicit and narrow, focused mainly on legal violations and IP, not on broader human rights or AI-specific harms."
+      },
+      "procedure_timelines_and_escalation": {
+        "score": 1,
+        "justification": "The policy mentions that users will be given an opportunity to explain or object when their information is suspected to be inaccurate or illegal (Section 2.2) and that DeepSeek will \"take legal actions accordingly\" after receiving complaints (Section 6). It also states that disputes under the Terms can be negotiated and, failing that, brought to a court in China (Section 9.2), which provides a formal external escalation path. However, there are no defined timelines for acknowledging or resolving complaints, no description of internal review stages, no indication of who reviews appeals, and no explicit right to appeal moderation or enforcement decisions (e.g., account suspension under Section 7.2). There is no commitment to provide reasons for decisions or to notify users of outcomes. This reflects minimal procedural structure, below best practices in Santa Clara Principles and NIST AI RMF."
+      },
+      "remedy_effectiveness_and_accountability": {
+        "score": 1,
+        "justification": "The document allows users to report infringements and violations and promises that DeepSeek \"takes your opinions seriously\" and will take legal actions accordingly (Section 6), and it commits to cooperate when users report unauthorized account use (Section 2.4). It also notes that if a user's explanation or objection about registration information is valid, access will be promptly restored (Section 2.2), which is a concrete remedial measure. However, there is no systematic description of what remedies are available for different harms (e.g., content removal, account reinstatement, correction of outputs, apology, compensation), no metrics or commitments on effectiveness, and no internal accountability structures (e.g., oversight bodies, audits, transparency reporting on complaints). Liability clauses (Section 7) focus on limiting DeepSeek's responsibility rather than enabling user redress. This yields a low but non-zero score for remedy effectiveness and accountability."
+      }
+    },
+    "overall_score": 1.8,
+    "overall_summary": "The DeepSeek Terms of Use provide basic channels for users to contact the provider, submit complaints about IP infringement, illegal or false information, and violations of the Terms, and raise general feedback. There are limited references to user objections in account-related contexts and a formal legal escalation path via courts in China. However, the document lacks a clearly articulated, structured appeals and remediation framework for AI-specific harms, content moderation decisions, or automated decisions. It does not define timelines, stages of review, or user rights to explanation and human review, and it offers little detail on the types of remedies available or internal accountability mechanisms. Overall, the policy meets a minimal standard for complaint channels but falls short of best practices under OECD AI Principles, UNGPs, GDPR, NIST AI RMF, and the Santa Clara Principles for transparency, procedural fairness, and effective redress."
+  }
+]

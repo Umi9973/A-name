@@ -1,0 +1,86 @@
+[
+  {
+    "document_id": "qwen_privacy_cn",
+    "document_title": "Qwen Product Privacy Policy (Chinese Official Version)",
+    "scores": {
+      "channels_and_clarity": {
+        "score": 4,
+        "justification": "The document clearly provides multiple contact and appeal channels. Section 6(5)(6) states that if users cannot perform operations themselves, they may request deletion through the contact methods in Section 9. Section 9 (How to Contact Us) provides in‑app contact pathways (“Contact Us” on the settings page or Personal Center → Settings → Service Center) and commits to responding within 15 days. Section 9(2) also provides a dedicated privacy email (privacy_zx@service.alibaba.com) and instructs users to specify that the matter is related to Qwen and include relevant facts. The policy repeatedly instructs users to contact the Section 9 channels for questions regarding policy updates. The channels are clear (in‑app service entrance + email) and cover inquiries, complaints, withdrawal of data used for model optimization, etc. This satisfies core requirements for contestability and redress channels."
+      },
+      "accessibility_and_usability": {
+        "score": 3,
+        "justification": "The mechanisms are easy to locate: a dedicated Section 9 for contact, repeatedly referenced throughout the document. Users can reach service channels via clear app navigation paths or email. Identity verification may be required to protect user information, but no excessive or unreasonable burdens are described. The document uses accessible Chinese and provides definitions for key terms. However, there is no mention of multilingual support, accessibility accommodations, or simplified procedures for vulnerable groups. The requirements for written requests or proof of identity are not elaborated. Thus the score is 3 instead of 4."
+      },
+      "scope_of_issues_and_rights": {
+        "score": 4,
+        "justification": "Section 5 (How You Can Manage Your Personal Information) comprehensively lists and operationalizes data‑subject rights: access, correction, supplementation (5.1), copying (5.2), deletion (5.3), change or withdrawal of consent (5.4), and account deletion (5.5). Section 5.3 lists explicit grounds for requesting deletion (unlawful processing, no consent, breach of agreement, etc.). Section 5.4 allows users to close voice features for model optimization and withdraw data used for algorithm training. Sections 5.6–5.7 describe circumstances under which requests may be refused. Section 9 states that users may bring claims before courts if they believe their rights have been violated. Overall, the rights set aligns strongly with GDPR‑style standards."
+      },
+      "procedure_timelines_and_escalation": {
+        "score": 3,
+        "justification": "Procedurally, the document describes a hybrid approach: users may attempt self‑service operations (viewing, deletion, closing permissions, account deletion), and if unavailable, may make requests through Section 9 contact channels. Section 6(6) states that identity verification may be required and that reasonable requests are generally free of charge. Section 9 commits to responding within 15 days. Escalation paths include judicial remedies if the user is dissatisfied with the result or believes their rights are violated. However, the document does not describe internal steps (review stages, appeal hierarchy) or regulatory reporting pathways. Hence a 3."
+      },
+      "remedy_effectiveness_and_accountability": {
+        "score": 3,
+        "justification": "The policy describes multiple remedial measures: correction, supplementation, copying, deletion of data (including conversation logs and creation history), withdrawal of data from model/algorithm optimization (5.4), account deletion (5.5), and deletion/anonymization obligations when services cease operation. Section 6 outlines incident‑response obligations (notification to users and authorities). Section 7 provides protections for minors and deletion obligations when unauthorized data is detected. Section 9 identifies a personal information protection organization and responsible officer. However, the policy does not discuss how complaints feed into systemic improvement, nor does it detail internal accountability frameworks. Thus a score of 3."
+      }
+    },
+    "overall_score": 3.4,
+    "overall_summary": "This privacy policy provides a relatively complete appeals and remediation structure: clear contact channels (in‑app service paths and a dedicated privacy email), a 15‑day response commitment, and a comprehensive set of data‑subject rights including access, correction, copying, deletion, consent withdrawal, permission controls, and account deletion. Judicial escalation is explicitly allowed. The policy also describes incident‑response obligations and assigns a personal information protection officer. However, it lacks transparency regarding internal appeal workflows, regulatory escalation paths, and how complaints contribute to system governance. It aligns well with international standards but retains gaps in procedural clarity and accountability."
+  },
+  {
+    "document_id": "qwen_user_service_agreement",
+    "document_title": "Qwen User Service Agreement (Chinese Official Version)",
+    "scores": {
+      "channels_and_clarity": {
+        "score": 4,
+        "justification": "Section 9 establishes explicit complaint/report channels for illegal content, harmful information, or content infringing users’ rights (IP, personal information, portrait rights, reputation). It provides in‑product navigation paths for app and web and a dedicated email (ainraq@list.alibaba-inc.com). The preamble also invites user feedback, complaints, and questions about legal consequences. Channels are unambiguous and clearly intended for rights‑related issues."
+      },
+      "accessibility_and_usability": {
+        "score": 3,
+        "justification": "Mechanisms are easy to locate (detailed navigation for mobile and web) with no burdensome verification requirements. Language is consumer‑friendly. However, there is no mention of multilingual support, accessibility accommodations, or simplified procedures for vulnerable users. Complaint‑form requirements are not described. Thus a strong but incomplete score of 3."
+      },
+      "scope_of_issues_and_rights": {
+        "score": 3,
+        "justification": "Section 9 allows complaints about illegal or harmful information and rights‑infringing content. Elsewhere, the agreement references the separate privacy policy for data‑subject rights, but does not itself enumerate access, correction, deletion, objection, or contestation rights. It does not clearly define rights regarding automated decisions or sanctions. Section 13.1 mentions users may present evidence when accused of violations, but this is not a full appeals framework. Thus scope is partially defined."
+      },
+      "procedure_timelines_and_escalation": {
+        "score": 2,
+        "justification": "Section 9 states complaints will be handled 'promptly' according to law but lacks workflow details or response deadlines. Internal appeal systems are not described. Escalation is limited to negotiation followed by litigation under Section 16.2, with no reference to regulatory or independent review bodies. Thus only minimal procedural structure is provided."
+      },
+      "remedy_effectiveness_and_accountability": {
+        "score": 2,
+        "justification": "Remedies described relate mainly to enforcement against violating users (content deletion, blocking, account suspension or termination). For affected users, Section 9 promises lawful handling of reports but does not identify what remedies users may obtain (e.g., restoration of services, correction of outputs). No accountability roles are defined. No commitment to systemic learning from complaints is stated. Remedies are therefore limited."
+      }
+    },
+    "overall_score": 2.8,
+    "overall_summary": "The agreement provides multiple complaint channels and covers illegal or rights‑infringing content, but lacks data‑subject rights, transparent procedures, timelines, and structured appeals for moderation or account actions. Remedies for affected users are limited and accountability roles are undefined. Escalation options are minimal. Overall, it partially aligns with global contestability standards but is far from a comprehensive appeals and remediation framework."
+  },
+  {
+    "document_id": "aliyun_bailian_privacy_notice",
+    "document_title": "Alibaba Cloud Model Studio Privacy Notice (Data Processing & Retention Mechanisms)",
+    "scores": {
+      "channels_and_clarity": {
+        "score": 1,
+        "justification": "The document focuses exclusively on data processing and retention under different invocation modes and provides no dedicated complaint, appeal, or rights‑remediation channels. The footer contains general service contact information (contact link and customer service number 4008013260), but these are generic and not identified as privacy or rights‑related channels. Thus only extremely weak, indirect evidence of contact pathways exists."
+      },
+      "accessibility_and_usability": {
+        "score": 1,
+        "justification": "The text is short and understandable, but contains no information about complaint mechanisms, required information, identity verification, or accessibility accommodations. The only contact information is generic footer content not described as complaint channels. Thus usability information is nearly absent."
+      },
+      "scope_of_issues_and_rights": {
+        "score": 0,
+        "justification": "The notice describes only technical data‑processing behavior (retention duration, use in training). It does not mention any data‑subject rights, any types of issues users may raise, or any remediation scenarios. No rights framework exists."
+      },
+      "procedure_timelines_and_escalation": {
+        "score": 0,
+        "justification": "The document contains no description of complaint or appeal handling processes: no intake steps, no review mechanisms, no response deadlines, and no mention of escalation to regulators, arbitration, or judicial bodies. Procedural and timing information is entirely absent."
+      },
+      "remedy_effectiveness_and_accountability": {
+        "score": 0,
+        "justification": "The document does not specify any remedies for privacy issues or rights violations (such as data deletion, correction, cessation of processing, access restoration, internal review, or model improvement). No responsible roles (DPO, compliance team, grievance officer) are identified. There is no commitment to continuous improvement based on complaints. The data retention statements alone do not constitute a remedy or accountability framework."
+      }
+    },
+    "overall_score": 0.4,
+    "overall_summary": "This privacy notice focuses on Alibaba Cloud Model Studio’s data processing and retention policies under various invocation modes, including retention duration and training usage. It almost entirely lacks content related to appeals and remedies. There are no clear complaint or appeal channels, no user rights descriptions, no processing timelines, and no remedies or responsible parties described. The footer’s general customer service contacts serve only as very indirect contact clues and are not positioned as privacy or rights remediation mechanisms. Overall, the document is seriously non-compliant with OECD, UNGPs, GDPR, NIST AI RMF, and Santa Clara Principles regarding contestability and redress."
+  }
+]

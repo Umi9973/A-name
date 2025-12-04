@@ -1,0 +1,86 @@
+[
+  {
+    "document_id": "qwen_privacy_cn",
+    "document_title": "Qwen Product Privacy Policy (Chinese Version)",
+    "scores": {
+      "manipulative_ui_protection": {
+        "score": 0,
+        "justification": "There is no explicit mention of protections against manipulative UI or dark patterns. The document focuses on data collection, use, and user rights, but does not address UI/UX design practices or safeguards against manipulative or deceptive interfaces, especially for minors."
+      },
+      "age_verification_controls": {
+        "score": 2,
+        "justification": "The policy states that users must provide a mobile phone number and verification code to register, referencing compliance with national regulations for generative AI services. However, there is no explicit mention of age verification mechanisms, parental consent, or controls specific to minors. The presence of a registration process is noted, but its adequacy for age gating or parental involvement is unclear."
+      },
+      "child_data_protection": {
+        "score": 2,
+        "justification": "The table of contents includes a section on 'Special Provisions for Minor Users' Personal Information,' but the provided text does not include the content of this section. The policy generally describes data collection, use, and user management, but there is no clear, detailed description of enhanced safeguards for minors' data, nor reference to GDPR-level protections or best practices for children's data."
+      },
+      "transparency_for_minors": {
+        "score": 2,
+        "justification": "The policy claims to use clear and understandable language and provides a contact method for questions or concerns. It also mentions real-time notifications (pop-ups, page prompts) for certain data uses. However, there is no evidence of tailored transparency or notice for minors or their guardians, nor specific efforts to ensure minors or parents understand their rights and data practices."
+      },
+      "remedy_and_escalation": {
+        "score": 1,
+        "justification": "The document provides a contact method for questions, opinions, or suggestions, and references a section for contacting the company. However, there is no explicit mention of remedy, appeal, or safety escalation options specifically for minors, nor any process for parental intervention, appeals, or dispute resolution related to children's rights."
+      }
+    },
+    "overall_score": 1.4,
+    "summary": "The Qwen Product Privacy Policy (Chinese Version) provides a general overview of data collection, use, and user rights, with some references to minors in its structure. However, it lacks explicit, detailed, or robust protections against manipulative UI, clear age verification and parental consent mechanisms, and specific remedies or escalation channels for minors. While there are some general transparency and data protection measures, the policy does not meet best-practice standards for safeguarding minors under leading global frameworks."
+  },
+  {
+    "document_id": "qwen_user_service_agreement",
+    "document_title": "Qwen User Service Agreement (Chinese Version)",
+    "scores": {
+      "manipulative_ui_protection": {
+        "score": 0,
+        "justification": "There is no explicit mention of protections against manipulative UI or dark patterns. The document does not reference UI/UX design standards, avoidance of deceptive interfaces, or any controls to prevent manipulative design, especially for minors."
+      },
+      "age_verification_controls": {
+        "score": 2,
+        "justification": "The agreement states that the service is mainly for adults and instructs minors (under 18) to use the service only with parental or guardian guidance and consent. However, there is no mention of any technical age verification, parental consent mechanisms, or enforcement measures. The requirement is advisory, not enforced."
+      },
+      "child_data_protection": {
+        "score": 1,
+        "justification": "There is no explicit section on data practices or safeguards specifically for minors. The document does not describe how children's data is handled, protected, or if there are any special restrictions or safeguards in place for minors' data."
+      },
+      "transparency_for_minors": {
+        "score": 1,
+        "justification": "The agreement generally encourages users to read and understand the terms and to contact the company with questions. However, there is no evidence of child-friendly explanations, special notices for minors or guardians, or enhanced transparency measures for vulnerable users."
+      },
+      "remedy_and_escalation": {
+        "score": 1,
+        "justification": "The document invites users to provide feedback or contact the company with questions or complaints, but there is no specific mention of remedy, appeal, or safety escalation options tailored for minors or their guardians. No special process for vulnerable users is described."
+      }
+    },
+    "overall_score": 1.0,
+    "summary": "The Qwen User Service Agreement (Chinese Version) provides only minimal and largely advisory protections for minors. While it acknowledges that minors should use the service with parental guidance and consent, it lacks enforceable age verification, parental control mechanisms, explicit data safeguards for children, and does not address manipulative UI or dark patterns. Transparency and remedy options are generic and not tailored to the needs of minors or their guardians. The document falls short of best practices and most global standards for protecting minors from manipulative design and unsafe data practices."
+  },
+  {
+    "document_id": "aliyun_bailian_privacy_notice",
+    "document_title": "Alibaba Cloud Model Studio Privacy Notice",
+    "scores": {
+      "manipulative_ui_protection": {
+        "score": 0,
+        "justification": "The document contains no mention of UI/UX design, manipulative patterns, or any controls to prevent dark patterns, especially for minors. There is no reference to interface safety, nudging, or user experience safeguards."
+      },
+      "age_verification_controls": {
+        "score": 0,
+        "justification": "There is no evidence of age verification, parental consent, or any mechanism to distinguish minor users. The document does not mention children, minors, or parental controls in any context."
+      },
+      "child_data_protection": {
+        "score": 1,
+        "justification": "The document describes general data privacy practices (e.g., encryption, not using data for model training, deletion of records in some modes), but does not mention children or minors, nor does it specify any enhanced safeguards for children's data as required by GDPR or other standards."
+      },
+      "transparency_for_minors": {
+        "score": 1,
+        "justification": "The privacy notice provides some transparency about data processing and retention for all users, but does not address minors, guardians, or provide child-friendly explanations. There is no evidence of tailored notice or transparency for children or their parents."
+      },
+      "remedy_and_escalation": {
+        "score": 0,
+        "justification": "There is no mention of remedy, appeals, complaint mechanisms, or safety escalation options for any users, including minors or their guardians."
+      }
+    },
+    "overall_score": 0.4,
+    "summary": "The Alibaba Cloud Model Studio Privacy Notice provides some general information about data handling and privacy, but offers no evidence of specific protections for minors against dark patterns, manipulative design, or unsafe data practices. There are no age verification or parental consent mechanisms, no child-specific data safeguards, no transparency for minors or guardians, and no remedy or escalation options. The document does not meet global best practices for protecting minors in digital environments."
+  }
+]

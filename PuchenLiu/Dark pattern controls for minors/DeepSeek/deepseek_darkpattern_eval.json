@@ -1,0 +1,86 @@
+[
+  {
+    "document_id": "deepseek_privacy_en",
+    "document_title": "DeepSeek Privacy Policy (EN)",
+    "scores": {
+      "manipulative_ui_protection": {
+        "score": 0,
+        "justification": "There is no mention of manipulative UI, dark patterns, or any design controls to prevent deceptive or coercive interfaces, especially for minors. The policy is focused on data practices and does not address user interface or experience design."
+      },
+      "age_verification_controls": {
+        "score": 1,
+        "justification": "The policy mentions collecting date of birth 'where applicable' and may request proof of age when contacted, but there is no clear, systematic age verification process or parental consent mechanism described. There is no explicit mention of parental controls or procedures for obtaining verifiable parental consent for minors."
+      },
+      "child_data_protection": {
+        "score": 2,
+        "justification": "The policy states that the services are not designed or intended to process sensitive personal data, including 'personal data of children,' and instructs users not to provide such data. However, there are no specific safeguards, restrictions, or protective measures for minors' data beyond this disclaimer. There is no evidence of compliance with child-specific data protection standards (e.g., GDPR Art. 8, COPPA)."
+      },
+      "transparency_for_minors": {
+        "score": 1,
+        "justification": "The policy provides general transparency about data collection and user rights, but there is no evidence of child-friendly explanations, notices tailored for minors, or mechanisms to ensure that minors or their guardians are adequately informed. There is no mention of parental notice or transparency requirements specific to children."
+      },
+      "remedy_and_escalation": {
+        "score": 2,
+        "justification": "The policy describes general rights to access, correct, delete, and appeal data decisions via email, and mentions the right to lodge complaints with authorities. However, there are no minor-specific remedy or escalation options, nor any mention of parental involvement in appeals or safety escalation for children."
+      }
+    },
+    "overall_score": 1.2,
+    "summary": "The DeepSeek Privacy Policy (EN) provides basic information on data collection, user rights, and general security, but offers minimal to no protection specifically for minors. There are no controls or commitments regarding manipulative UI or dark patterns, and age verification and parental consent mechanisms are vague or absent. Child data protection is limited to a disclaimer, with no substantive safeguards or compliance with best-practice standards for minors. Transparency and remedy options are generic and not tailored for children or their guardians. Overall, the policy does not meet global best practices for protecting minors from dark patterns, unsafe design, or inappropriate data practices."
+  },
+  {
+    "document_id": "deepseek_terms_en",
+    "document_title": "DeepSeek Terms of Use (EN)",
+    "scores": {
+      "manipulative_ui_protection": {
+        "score": 1,
+        "justification": "The document does not explicitly address manipulative UI or dark patterns. There are general statements about user rights and responsibilities, and a requirement to indicate AI-generated content, but no mention of UI/UX design standards, prevention of deceptive interfaces, or specific dark pattern controls."
+      },
+      "age_verification_controls": {
+        "score": 2,
+        "justification": "The document states that services are primarily intended for adults and that minors should use the service only with guardian consent. However, there is no explicit mention of age verification mechanisms, parental consent workflows, or technical controls to enforce these requirements. The language is advisory rather than procedural."
+      },
+      "child_data_protection": {
+        "score": 2,
+        "justification": "There is a reference to a separate privacy policy and a general statement about taking protective measures for minors in accordance with legal requirements and industry practices. However, the document does not specify safeguards for children's data, data minimization, or parental access/control over minor data. Opt-out for data use is mentioned, but not specifically for minors."
+      },
+      "transparency_for_minors": {
+        "score": 2,
+        "justification": "The document instructs minors to read the terms with a guardian and provides links to the privacy policy. It also describes some user rights and the nature of AI-generated content. However, there is no evidence of child-friendly explanations, targeted notices for minors or guardians, or enhanced transparency measures for vulnerable users."
+      },
+      "remedy_and_escalation": {
+        "score": 2,
+        "justification": "The document provides a general complaints and feedback mechanism and describes an appeal process for account recovery. However, there is no specific mention of remedy or escalation options tailored for minors, nor any reference to guardian involvement in appeals or safety escalations for children."
+      }
+    },
+    "overall_score": 1.8,
+    "summary": "The DeepSeek Terms of Use (EN) provide some general protections and references to legal compliance for minors, but lack explicit, robust controls against dark patterns, clear age verification and parental consent mechanisms, detailed child data safeguards, targeted transparency for minors, and tailored remedy or escalation options. The document meets only a partial standard for protecting minors from manipulative design and unsafe practices."
+  },
+  {
+    "document_id": "deepseek_open_platform_terms",
+    "document_title": "DeepSeek Open Platform Terms of Service (EN)",
+    "scores": {
+      "manipulative_ui_protection": {
+        "score": 0,
+        "justification": "There is no mention of manipulative UI, dark patterns, or any requirements or prohibitions regarding user interface design, especially as it relates to minors. The document does not address UI/UX safety or design ethics."
+      },
+      "age_verification_controls": {
+        "score": 1,
+        "justification": "The only reference to minors is a suggestion that minors under 18 should read the terms in the presence of a legal guardian. There is no mention of age verification mechanisms, parental consent requirements, or controls to restrict minor access. No technical or procedural safeguards are described."
+      },
+      "child_data_protection": {
+        "score": 1,
+        "justification": "The document references compliance with applicable laws and the need to inform end users about personal information processing, but does not specify any special safeguards for minors' data, nor does it mention GDPR-style protections, age-specific consent, or heightened standards for children's data."
+      },
+      "transparency_for_minors": {
+        "score": 1,
+        "justification": "Transparency is addressed in general terms (e.g., notification of changes, privacy policy reference), but there are no provisions for child-friendly explanations, guardian notice, or special transparency for minors or their guardians. The document is written for developers, not end users or minors."
+      },
+      "remedy_and_escalation": {
+        "score": 2,
+        "justification": "There is a complaints and feedback mechanism (contact email, online portal), and a process for dispute resolution is described. However, there is no mention of special remedy or escalation options for minors, nor any child-appropriate appeal or safety escalation process."
+      }
+    },
+    "overall_score": 1.0,
+    "summary": "The DeepSeek Open Platform Terms of Service provides only minimal and indirect consideration for minors. There are no explicit protections against manipulative design, no age verification or parental consent controls, and no special data safeguards for children. Transparency and remedy mechanisms are generic and not tailored to minors or their guardians. The document does not meet best practices or global standards for protecting minors from dark patterns or unsafe data/UI practices."
+  }
+]
