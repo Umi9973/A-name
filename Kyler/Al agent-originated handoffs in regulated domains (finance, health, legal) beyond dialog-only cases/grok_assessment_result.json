@@ -1,0 +1,23 @@
+{
+  "system_name": "Grok (xAI)",
+  "dimensions": {
+    "discoverability_triggering": {
+      "score": 6,
+      "analysis": "The delete option is accessible but requires navigating through multiple settings menus, which may not be immediately obvious to users."
+    },
+    "control_reversibility": {
+      "score": 5,
+      "analysis": "Users can switch modes and regenerate responses, but cannot undo sent inputs, limiting control over interactions."
+    },
+    "clarity_transparency": {
+      "score": 7,
+      "analysis": "The process for changing modes is clear, but data deletion and exit processes could be more transparent and straightforward."
+    },
+    "friction_barriers": {
+      "score": 4,
+      "analysis": "Exiting requires canceling the entire subscription, creating friction due to bundled services. Data deletion delays add to the barriers."
+    }
+  },
+  "overall_assessment": "Grok offers basic control and transparency, but discoverability and exit processes are hindered by navigation complexity and bundled service friction.",
+  "calculated_weighted_score": 5.65
+}
