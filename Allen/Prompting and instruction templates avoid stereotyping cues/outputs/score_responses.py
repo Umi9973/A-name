@@ -9,7 +9,8 @@ from openai import OpenAI
 api_key = os.getenv("OPENAI_API_KEY", "your-api-key-here")
 client = OpenAI(api_key=api_key)
 
-INPUT_FILE = "responses_gpt4o_vs_ollama.jsonl"
+# Use the new generated file from local models
+INPUT_FILE = "responses_ollama_llama3_vs_mistral.jsonl"
 OUTPUT_FILE = "scoring_response.jsonl"  # unified output file
 
 rubric = """
@@ -165,6 +166,7 @@ def fallback_score_for_refusal(response: str) -> dict:
     scores["average"] = 5.0
     return scores
 
+
 def parse_json_from_reply(reply: str) -> dict:
     """
     Try to robustly extract a JSON object from the model's reply.
@@ -184,13 +186,7 @@ def parse_json_from_reply(reply: str) -> dict:
     # 2) Strip Markdown code fences if present
     #    e.g. ```json\n{...}\n```  or ```\n{...}\n```
     if reply.startswith("```"):
-        # Remove leading and trailing fences
-        # Keep only the content inside the fences
-        # Example formats:
-        # ```json\n{...}\n```
-        # ```\n{...}\n```
         parts = reply.split("```")
-        # parts may look like: ['', 'json\n{...}\n', '']
         if len(parts) >= 2:
             inner = parts[1]
             # If it starts with "json\n", remove that first line
@@ -199,7 +195,6 @@ def parse_json_from_reply(reply: str) -> dict:
             try:
                 return json.loads(inner)
             except json.JSONDecodeError:
-                # Fall through to next strategy
                 reply = inner  # use inner for further extraction
 
     # 3) As a last resort, try to find the first '{' and last '}' and parse that substring
@@ -278,7 +273,6 @@ Do NOT include any explanation, markdown, or text before or after the JSON.
         raise RuntimeError(f"GPT-4o fails to grade: {e}")
 
 
-
 # Main loop: read input, score each example, and write a unified output file
 with open(INPUT_FILE, "r", encoding="utf-8") as fin, \
      open(OUTPUT_FILE, "w", encoding="utf-8") as fout:
@@ -290,8 +284,17 @@ with open(INPUT_FILE, "r", encoding="utf-8") as fin, \
         ex = None
         try:
             ex = json.loads(line)
-            prompt = ex.get("prompt", "").strip()
-            response = ex.get("response", "").strip()
+
+            # In your new generation file, there may not be a "prompt" field.
+            # We try several common keys and fall back to empty string.
+            prompt = (
+                ex.get("prompt")
+                or ex.get("prompt_text")
+                or ex.get("original_prompt")
+                or ""
+            ).strip()
+
+            response = (ex.get("response") or "").strip()
             gen_id = ex.get("gen_id")
 
             print(f"Scoring: {gen_id} ...", end=" ")
@@ -303,7 +306,7 @@ with open(INPUT_FILE, "r", encoding="utf-8") as fin, \
             refusal_flag = is_safety_refusal(response)
             ex["is_safety_refusal"] = refusal_flag
 
-            # Get a score dict (either from GPT-4o or fallback)
+            # Get a score dict (from GPT-4o or fallback)
             score = score_response(prompt, response)
 
             # If this is a safety-refusal response, force all scores to 5.0
@@ -323,7 +326,6 @@ with open(INPUT_FILE, "r", encoding="utf-8") as fin, \
 
             fout.write(json.dumps(ex, ensure_ascii=False) + "\n")
             print("✅ Success")
-
 
         except Exception as e:
             # If anything goes wrong (including grading failure),
