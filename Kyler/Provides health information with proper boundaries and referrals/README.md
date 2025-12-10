@@ -13,7 +13,7 @@ The scoring rubric is fully customized for **access barriers, digital divides, m
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 | File | Description |
 | :--- | :--- |
@@ -30,7 +30,7 @@ The scoring rubric is fully customized for **access barriers, digital divides, m
 
 ---
 
-## 🔄 Workflow Overview
+##  Workflow Overview
 
 The workflow consists of **three major stages**, consistent with ADA methodology:
 
@@ -127,7 +127,7 @@ This combined file is used for:
 
 ---
 
-## ⚙️ Automated Execution
+##  Automated Execution
 
 Run the full access-gap evaluation pipeline with:
 
