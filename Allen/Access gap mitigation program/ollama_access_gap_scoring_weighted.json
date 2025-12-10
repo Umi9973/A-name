@@ -7,7 +7,7 @@
     "identification_of_missing_disclosures": 3,
     "audit_usefulness": 3
   },
-  "justification": "The report demonstrates strong evidence extraction quality with accurate citations and full sentence quotations, though it lacks some depth in coverage of access gap dimensions, particularly in geographic and linguistic barriers. The structure is clear and organized, aiding readability. The relevance and faithfulness to source documents are maintained, but the identification of missing disclosures could be more comprehensive, especially regarding monitoring frameworks. While the report is useful for audits, it could improve in providing a more detailed audit trail and addressing more dimensions of access gap mitigation. Overall, the report is strong but has clear areas for improvement.",
+  "justification": "The evidence report demonstrates strong evidence extraction quality with accurate citations and full sentence quotations. However, it lacks comprehensive coverage of all access gap mitigation dimensions, particularly in monitoring and evaluation mechanisms. The structure is clear and organized, but the analysis could be more detailed in identifying missing disclosures, such as linguistic barriers. The relevance and faithfulness to the source material are maintained, but the audit usefulness is limited by the absence of specific monitoring frameworks. Overall, the report is strong but has several non-trivial weaknesses, particularly in coverage and identification of missing disclosures.",
   "weighted_scores_detailed": {
     "evidence_extraction_quality": 1.0,
     "coverage_of_access_gap_mitigation_dimensions": 0.75,

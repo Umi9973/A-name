@@ -5,10 +5,13 @@ This repository contains all files required to reproduce the evidence-collection
 
 This evaluation follows the **ADA (Automated Document Analysis)** methodology and extracts evidence from authoritative fairness-mitigation frameworks, including:
 
-- GPT-4o System Card (mitigations, safeguards, RLHF bias-reduction mechanisms)  
-- **IBM AI Fairness 360 Toolkit (AIF360)**  
-- *Mehrabi et al. (2021) A Survey on Bias and Fairness in Machine Learning*  
-- Canonical academic papers on reweighting, adversarial debiasing, equalized-odds post-processing, fair representation learning, and causal fairness frameworks  
+- Model's own documentation related to mitigations strategies / debiasing techniques / fairness interventions  
+- Additional canonical academic sources describing:
+   - Reweighting, data repair, disparate impact removal
+   - Adversarial debiasing, fairness constraints
+   - Equalized odds post-processing, threshold adjustments
+   - Fair representation learning (VAE, adversarial, disentanglement)
+   - Causal-based fairness mitigation frameworks
 
 The scoring rubric is fully customized for **algorithmic mitigation strategies and validation evidence**, and implemented in `score_debiasing_mitigation.py`.
 
@@ -101,10 +104,10 @@ Weighted scoring follows the L4 scheme:
 |----------|--------|
 | Evidence Extraction Quality | **0.25** |
 | Coverage of Debiasing/Mitigation Dimensions | **0.25** |
-| Structure & Formatting | 0.15 |
-| Relevance & Faithfulness | 0.15 |
-| Identification of Missing Disclosures | 0.10 |
-| Audit Usefulness | 0.10 |
+| Structure & Formatting | 0.10 |
+| Relevance & Faithfulness | 0.10 |
+| Identification of Missing Disclosures | **0.30** |
+
 
 Outputs:
 - JSON: `gpt4o_debiasing_scoring_weighted.json`, `ollama_debiasing_scoring_weighted.json`  

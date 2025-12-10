@@ -1,10 +1,8 @@
 Please search for and compile all documentation describing debiasing techniques, mitigation strategies, and fairness interventions used in AI systems.
 
 Prioritize explicit evidence from:
-1. GPT-4o System Card – model-level mitigations (safety tuning, RLHF, bias reduction, post-training filtering).
-2. IBM AI Fairness 360 (AIF360) – algorithmic mitigation techniques.
-3. Mehrabi et al. (2021), “A Survey on Bias and Fairness in Machine Learning.”
-4. Additional canonical academic sources describing:
+1. Your model's own documentation related to mitigations strategies / debiasing techniques / fairness interventions (safety tuning, RLHF, bias reduction, post-training filtering).
+2. Additional canonical academic sources describing:
    - Reweighting, data repair, disparate impact removal
    - Adversarial debiasing, fairness constraints
    - Equalized odds post-processing, threshold adjustments

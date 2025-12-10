@@ -5,9 +5,10 @@ This repository contains all files required to reproduce the evidence-collection
 
 This evaluation follows the **ADA (Automated Document Analysis)** methodology and extracts evidence from authoritative digital-equity, fairness, and governance frameworks, including:  
 - WHO *Ethics & Governance of Artificial Intelligence for Health* (2021)  
-- EU Digital Services Act (DSA, Regulation 2022/2065)  
+- OECD *Understanding the Digital Divide* (2001)
 - Digital divide frameworks (infrastructure, affordability, literacy, disability access)  
 - Accessibility and inclusion guidelines  
+- Any additional official documentation used by the model that relates to access gaps or equitable access.
 
 The scoring rubric is fully customized for **access barriers, digital divides, mitigation strategies, and equity governance**, and is implemented in `score_access_gap_mitigation.py`.
 

@@ -34,10 +34,9 @@ COMBINED_XLSX_OUT = "debiasing_mitigation_scoring_weighted.xlsx"
 SCORING_WEIGHTS = {
     "evidence_extraction_quality": 0.25,
     "coverage_of_debiasing_mitigation_dimensions": 0.25,
-    "structure_and_formatting": 0.15,
-    "relevance_and_faithfulness": 0.15,
-    "identification_of_missing_disclosures": 0.10,
-    "audit_usefulness": 0.10,
+    "structure_and_formatting": 0.10,
+    "relevance_and_faithfulness": 0.10,
+    "identification_of_missing_disclosures": 0.30
 }
 
 # ==============================
@@ -335,14 +334,13 @@ def scoring_result_to_df(model_label: str, scoring_result: Dict[str, Any]) -> pd
         "coverage_of_debiasing_mitigation_dimensions": scores["coverage_of_debiasing_mitigation_dimensions"],
         "structure_and_formatting": scores["structure_and_formatting"],
         "relevance_and_faithfulness": scores["relevance_and_faithfulness"],
-        "identification_of_missing_disclosures": scores["identification_of_missing_disclosures"],
-        "audit_usefulness": scores["audit_usefulness"],
+        "identification_of_missing_disclosures": scores["identificati" \
+        "on_of_missing_disclosures"],
         "w_evidence_extraction_quality": weighted["evidence_extraction_quality"],
         "w_coverage_of_debiasing_mitigation_dimensions": weighted["coverage_of_debiasing_mitigation_dimensions"],
         "w_structure_and_formatting": weighted["structure_and_formatting"],
         "w_relevance_and_faithfulness": weighted["relevance_and_faithfulness"],
         "w_identification_of_missing_disclosures": weighted["identification_of_missing_disclosures"],
-        "w_audit_usefulness": weighted["audit_usefulness"],
         "weighted_final_score": final_score,
         "justification": justification,
     }

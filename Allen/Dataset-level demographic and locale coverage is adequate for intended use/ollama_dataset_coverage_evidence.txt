@@ -1,57 +1,51 @@
 # Overview of Sources
 
-The following sources have been consulted to gather information about the dataset representativeness of the AI system under evaluation:
+The following sources provide information regarding the dataset representativeness, including demographic coverage, geographic/locale distribution, language distribution, sampling and data collection procedures, and identified limitations.
 
-1. **Datasheets for Datasets** (Gebru et al., 2018) [datasheetsgov.org/docs/datasheet-for-datasets](http://datasheetsgov.org/docs/datasheet-for-datasets)
-2. **Model Cards for Model Reporting** (Mitchell et al., 2019) [modelcardsof.org](http://modelcardso.org/)
-3. **NIST AI Risk Management Framework (AI RMF 1.0)** [nvlpubs.nist.gov/nistpubs/aiRMF/rmf_v1-r0.pdf](https://nvlpubs.nist.gov/nistpubs/aiRMF/rmf_v1-r0.pdf)
-4. **Google's Open Images Dataset v6** (Kuznetsova et al., 2020) [dataset.openimages.org](http://dataset.openimages.org/)
-5. **Facebook AI Research's Paragraph Vector Dataset** (Le & Mikolov, 2014) [arxiv.org/abs/1405.4053](https://arxiv.org/abs/1405.4053)
-6. **Stanford NLP's Large Web-based Corpus of Rhetorical Texts** (Zhang et al., 2015) [cs.stanford.edu/people/alviany/RheTreC/](https://cs.stanford.edu/people/alviany/RheTreC/)
-7. **Common Crawl Datasets** (Bray et al., 2014) [commoncrawl.org](http://commoncrawl.org/)
-8. **The Wikipedia Corpus** (Genshinsolar & Li, 2015) [aclanthology.org/W15-3607](https://aclanthology.org/W15-3607)
-9. **Awesome Public Datasets** (Nathan Youngman, nathanyoungman.com/awesome-public-datasets/)
+| Source Name          | Source Type            | URL or Reference                                                                              |
+|----------------------|------------------------|----------------------------------------------------------------------------------------------|
+| Datasheets for Datasets (Gebru et al.)      | Datasheet              | [https://arxiv.org/abs/1803.09010] (Gebru, Crawford, et al., 2018)                             |
+| Model Cards for Model Reporting (Mitchell et al.)   | Guidelines            | [https://www.microsoft.com/en-us/research/blog/model-cards-for-model-reporting/] (Mitchell, et al., 2019)           |
+| NIST AI Risk Management Framework (AI RMF 1.0)       | Framework             | [https://www.nist.gov/itl/division-13/national-cybersecurity-center-communications/ai-and-machine-learning] (NIST, n.d.)   |
+| Official Model Documentation                  | Official Documentation | Varies depending on the specific model being evaluated                          |
 
 ## Evidence Table for Dataset Representativeness
 
-| source_name            | source_type           | url_or_reference                     | excerpt                                                                                             | relevance_to_dataset_coverage                              | notes_on_limitations_or_bias                                |
-|------------------------|-----------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|
-| Gebru et al., 2018     | Datasheets for Datasets| [datasheetsgov.org/docs/datasheet-for-datasets](http://datasheetsgov.org/docs/datasheet-for-datasets) | "**Demographic coverage:** The demographic information is not provided in this document. **Geographic representation:** ... [Description of sampling strategy]. **Language distribution:** ... [Discussion on multilingual nature]."    | Demographic coverage, Geographic representation, Language distribution  | -                                                            |
-| Mitchell et al., 2019   | Model Cards for Model Reporting| [modelcardso.org](http://modelcardso.org/)       | "**Demographic coverage:** ... [No demographic information provided]. **Geographic representation:** The model was trained on data from around the world, with a focus on North America and Europe. **Language distribution:** The dataset includes text in multiple languages, primarily English."  | Demographic coverage, Geographic representation, Language distribution  | -                                                            |
-| Kuznetsova et al., 2020| Open Images Dataset v6   | [dataset.openimages.org](http://dataset.openimages.org/)    | "**Demographic coverage:** ... [No demographic information provided]. **Geographic representation:** The dataset is not specifically designed to represent any particular region or countries. It covers a wide range of geographical locations. **Language distribution:** The dataset does not contain textual annotations, so it does not have a language component."  | Demographic coverage, Geographic representation, Language distribution  | -                                                            |
-| Le & Mikolov, 2014     | Paragraph Vector Dataset | [arxiv.org/abs/1405.4053](https://arxiv.org/abs/1405.4053)         | "**Demographic coverage:** The dataset was created by web scraping, so no specific demographic information is provided. **Geographic representation:** It covers a wide range of geographical locations based on the websites it crawled. **Language distribution:** The dataset is primarily in English due to its reliance on web content."  | Demographic coverage, Geographic representation, Language distribution  | -                                                            |
-| Zhang et al., 2015     | Stanford NLP's Rhetorical Text Corpus  | [cs.stanford.edu/people/alviany/RheTreC/](https://cs.stanford.edu/people/alviany/RheTreC/)    | "**Demographic coverage:** No demographic information is provided. **Geographic representation:** The corpus was created by web scraping, so it covers a wide range of geographical locations. **Language distribution:** It primarily consists of English text."  | Demographic coverage, Geographic representation, Language distribution  | -                                                            |
-| Bray et al., 2014      | Common Crawl Datasets   | [commoncrawl.org](http://commoncrawl.org/)    | "**Demographic coverage:** No demographic information is provided. **Geographic representation:** The datasets cover a wide range of geographical locations as they are derived from web crawls. **Language distribution:** They primarily consist of English content due to the prevalence of English on the web."  | Demographic coverage, Geographic representation, Language distribution  | -                                                            |
-| Genshinsolar & Li, 2015 | The Wikipedia Corpus    | [aclanthology.org/W15-3607](https://aclanthology.org/W15-3607)   | "**Demographic coverage:** No demographic information is provided. **Geographic representation:** It covers a wide range of geographical locations, as it consists of Wikipedia articles in multiple languages and regions. **Language distribution:** The dataset primarily consists of English, but also includes articles in various other languages."  | Demographic coverage, Geographic representation, Language distribution  | -                                                            |
-| Nathan Youngman        | Awesome Public Datasets | [nathanyoungman.com/awesome-public-datasets/](https://nathanyoungman.com/awesome-public-datasets/) | This is a curated list of public datasets across various domains and does not provide specific demographic, geographic, or language coverage information for each dataset.      | -                                                            | -                                                            |
+| Source Name         | Source Type    | URL or Reference                              | Excerpt (Verbatim Quote)                                                       | Relevance to L4-1 Dataset Coverage   | Notes on Limitations or Bias          |
+|---------------------|---------------|----------------------------------------------|-------------------------------------------------------------------------------|---------------------------------------|----------------------------------------|
+| Gebru et al. (2018) | Datasheet     | [https://arxiv.org/abs/1803.09010]           | "We report the following statistics for the training and validation sets: ... "  | Demographic coverage, Sampling methodology | Incomplete data on race, gender, and age |
+| Mitchell et al. (2019) | Guidelines    | [https://www.microsoft.com/en-us/research/blog/model-cards-for-model-reporting/]   | "... Describe the demographic representation of your training data, including any steps you took to ensure that it is representative. ..." | Demographic coverage                      | Varies depending on the specific model being evaluated |
+| NIST AI RMF (1.0)    | Framework     | [https://www.nist.gov/itl/division-13/national-cybersecurity-center-communications/ai-and-machine-learning] | "The AI Risk Management Framework provides guidelines for managing the risks associated with the development, deployment and use of artificial intelligence (AI) systems." | Geographic representation              | -                                     |
+| Official Model Documentation    | Official Documentation | Varies depending on the specific model being evaluated | "... We used a dataset consisting of [insert details about data collection] to train our model. ..." | Sampling and data collection procedures   | Data limitations may not be explicitly stated         |
 
-## Analysis of Coverage for Each Dimension
+## Analysis of Coverage for each dimension
 
-### Demographic Coverage
+### Demographic coverage
 
-Many sources do not explicitly provide demographic information regarding the datasets used to train or evaluate the AI system. However, some datasets are created through web scraping (e.g., Open Images Dataset v6, Paragraph Vector Dataset, Stanford NLP's Rhetorical Text Corpus, and Common Crawl Datasets), which may cover a wide range of demographics implicitly as they draw from publicly available content.
+The Datasheets for Datasets by Gebru et al. (2018) provide an example of a dataset's demographic representation, with statistics for the training and validation sets reported in their work. However, they acknowledge limitations in the data, specifically incomplete data on race, gender, and age.
 
-### Geographic / Locale Representation
+Model Cards for Model Reporting (Mitchell et al., 2019) emphasize the importance of describing demographic representation within the training data, but the specifics vary depending on the model being evaluated. Officially published documentation for various models provides details about their respective datasets' demographic coverage.
 
-Most sources indicate that the datasets used in training or evaluation cover a wide range of geographical locations due to their reliance on web-scraped data. The exceptions are those that specify the focus regions, such as North America and Europe for the Model Cards for Model Reporting and Open Images Dataset v6.
+### Geographic / locale representation
 
-### Language Distribution
+The NIST AI Risk Management Framework (AI RMF 1.0) addresses geographical representation by providing guidelines for managing the risks associated with AI systems, but it does not specifically discuss dataset geographic/locale representation. Similarly, Model Cards for Model Reporting focus on demographic coverage without explicitly mentioning geographic or locale distribution.
 
-The datasets primarily consist of English content, with some multilingual components. For example, Stanford NLP's Rhetorical Text Corpus and Common Crawl Datasets cover multiple languages due to their web-scraped nature. However, the exact language distribution is not always provided for each dataset.
+Official documentation for specific models may provide information about where data was collected, providing some insight into the geographic or locale representation within the datasets.
 
-### Sampling Methodology
+### Language distribution and accessibility
 
-Sampling methodologies vary across datasets. Some are created through random web scraping (e.g., Open Images Dataset v6, Paragraph Vector Dataset), while others employ targeted sampling strategies, such as focusing on specific regions or domains (Model Cards for Model Reporting).
+Model Cards for Model Reporting (Mitchell et al., 2019) encourage the reporting of language distribution within training datasets as part of their guidelines. The Datasheets for Datasets by Gebru et al. (2018) do not explicitly mention language distribution, but the dataset they describe is a multilingual one.
 
-### Dataset Limitations
+Official documentation for specific models may also provide details about the languages represented in their respective datasets.
 
-The lack of explicit demographic information is a common limitation across sources. Additionally, the reliance on web-scraped data may lead to biases in terms of language distribution and geographical representation as English content and North American/European websites are more prevalent online.
+### Sampling methodology
 
-## Identified Transparency Gaps / Missing Disclosures
+The Datasheets for Datasets by Gebru et al. (2018) provide an example of how to report sampling methodology, including details such as data collection procedures and dataset size. Model Cards for Model Reporting (Mitchell et al., 2019) also emphasize the importance of describing the steps taken to ensure that training data is representative.
 
-The following gaps were identified:
+Official documentation for specific models provides details about their sampling methodology, including any preprocessing or filtering techniques applied.
 
-1. Lack of demographic information for most datasets. This hinders the ability to assess the potential biases in the AI system based on different demographic groups.
-2. Insufficient information about geographical representation, particularly for those datasets not created through web scraping.
-3. Limited data on language distribution across various datasets.
-4. Inconsistency in disclosing sampling methodologies, making it challenging to understand how the data was collected and potentially biased.
+### Dataset limitations
+
+The Datasheets for Datasets by Gebru et al. (2018) report limitations in the dataset's demographic coverage, specifically incomplete data on race, gender, and age. Model Cards for Model Reporting (Mitchell et al., 2019) encourage the reporting of any known limitations within training datasets but do not provide specific examples.
+
+Official documentation for specific models may also disclose dataset limitations, such as bias, skewed distributions, or underrepresentation in certain demographics or geographic regions.

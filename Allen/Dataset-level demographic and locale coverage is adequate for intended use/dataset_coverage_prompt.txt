@@ -5,7 +5,7 @@ The response must:
    - **Datasheets for Datasets** (Gebru et al.)
    - **Model Cards for Model Reporting** (Mitchell et al.)
    - **NIST AI Risk Management Framework (AI RMF 1.0)**
-   - **any other possible resources**
+   - **Any additional official documentation used by the model that relates to this topic "Dataset Coverage"**
 2. Focus on dataset representativeness, including:
    - demographic coverage (age, gender, race/ethnicity, disability, etc.)
    - geographic or locale distribution

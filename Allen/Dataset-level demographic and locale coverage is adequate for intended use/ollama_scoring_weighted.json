@@ -4,17 +4,17 @@
     "coverage_of_representativeness_dimensions": 3,
     "structure_and_formatting": 4,
     "relevance_and_faithfulness": 3,
-    "identification_of_missing_disclosures": 4,
+    "identification_of_missing_disclosures": 3,
     "audit_usefulness": 3
   },
-  "justification": "The report provides a reasonable extraction of evidence with accurate citations, but lacks depth in verbatim quotations, often summarizing rather than quoting full sentences. Coverage of representativeness dimensions is acceptable, addressing key areas like demographics and geography, but lacks detailed evidence for each. The structure is strong, with clear tables and sections, though some headings could be more informative. Relevance is maintained, but some assumptions about implicit coverage are speculative. Missing disclosures are well-identified, highlighting gaps in demographic and geographic data. However, the audit usefulness is limited by vague descriptions and a lack of detailed traceability for some claims.",
+  "justification": "The evidence report is reasonably structured with clear sections and consistent formatting, earning a score of 4 in structure and formatting. However, the evidence extraction quality is only acceptable, as the report includes some fragmented snippets and lacks full sentence quotations, resulting in a score of 3. The coverage of representativeness dimensions is addressed but lacks depth and specificity, particularly in geographic and language distribution, leading to a score of 3. Relevance and faithfulness are maintained, but the report occasionally lacks direct grounding in the source documents, scoring a 3. Missing disclosures are identified, but not comprehensively, also scoring a 3. Overall, the report is useful for auditing but could be more detailed and precise, resulting in a score of 3 for audit usefulness.",
   "weighted_scores_detailed": {
     "evidence_extraction_quality": 0.75,
     "coverage_of_representativeness_dimensions": 0.75,
     "structure_and_formatting": 0.6,
     "relevance_and_faithfulness": 0.45,
-    "identification_of_missing_disclosures": 0.4,
+    "identification_of_missing_disclosures": 0.3,
     "audit_usefulness": 0.3
   },
-  "weighted_final_score": 3.25
+  "weighted_final_score": 3.15
 }
