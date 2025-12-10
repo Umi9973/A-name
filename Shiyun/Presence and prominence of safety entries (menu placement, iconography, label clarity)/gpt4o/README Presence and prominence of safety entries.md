@@ -1,4 +1,4 @@
-# DocuBase Safety Evaluation – Evidence Collection and Automated Scoring
+# Presence and prominence of safety entries
 
 This repository contains all files required to reproduce the evidence collection and automated scoring workflow for evaluating *“Presence and prominence of safety-related interface entries (menu placement, iconography, label clarity)”* in ChatGPT as part of Assignment 3 for the DocuBase measurement process.
 
