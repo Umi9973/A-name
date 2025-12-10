@@ -1,4 +1,4 @@
-# Regulated-Domain Disclaimers (Llama2 vs Mistral) — Demo
+# Consent UX tailored for seniors
 
 This demo evaluates two chat-based foundation models (**Llama2** and **Mistral**) on their ability to deliver safe, compliant, and professionally cautious disclaimers in regulated domains (medical, legal, financial, psychological, safety-risk).  
 The evaluation examines whether models recognize risk, apply proper disclaimers, avoid restricted actions, and maintain protective tone.
