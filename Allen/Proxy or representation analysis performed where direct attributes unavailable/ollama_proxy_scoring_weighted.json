@@ -1,20 +1,20 @@
 {
   "scores": {
-    "evidence_extraction_quality": 4,
-    "coverage_of_proxy_representation_dimensions": 3,
-    "structure_and_formatting": 4,
+    "evidence_extraction_quality": 3,
+    "coverage_of_proxy_representation_dimensions": 4,
+    "structure_and_formatting": 3,
     "relevance_and_faithfulness": 4,
     "identification_of_missing_disclosures": 3,
     "audit_usefulness": 3
   },
-  "justification": "The evidence report demonstrates strong evidence extraction quality, with accurate citations and full sentence quotations, though some sources lack page numbers. Coverage of proxy dimensions is reasonable, addressing key concepts and methods but lacking depth in certain areas like causal analysis. The structure is clear and organized, with consistent formatting. Relevance is maintained, with evidence grounded in source documents. However, the identification of missing disclosures is limited, as it does not specify which disclosures are absent in detail. Audit usefulness is adequate, providing a traceable audit trail, but could benefit from more explicit cross-model comparison guidance. Overall, the report is strong but has room for improvement in coverage and disclosure identification.",
+  "justification": "The report provides a reasonable extraction of evidence with accurate citations, but lacks full sentence quotations in some cases, leading to a score of 3 for evidence extraction quality. Coverage of proxy dimensions is strong, with clear definitions and examples, but lacks depth in methods, earning a 4. Structure is adequate but could be more organized, scoring a 3. The relevance is high, with evidence grounded in sources, scoring a 4. Missing disclosures are identified, but the analysis is not exhaustive, resulting in a 3. Overall audit usefulness is moderate due to some vagueness, scoring a 3. A key weakness is the lack of detailed methods for detecting proxy effects.",
   "weighted_scores_detailed": {
-    "evidence_extraction_quality": 1.0,
-    "coverage_of_proxy_representation_dimensions": 0.75,
-    "structure_and_formatting": 0.6,
+    "evidence_extraction_quality": 0.75,
+    "coverage_of_proxy_representation_dimensions": 1.0,
+    "structure_and_formatting": 0.45,
     "relevance_and_faithfulness": 0.6,
     "identification_of_missing_disclosures": 0.3,
     "audit_usefulness": 0.3
   },
-  "weighted_final_score": 3.55
+  "weighted_final_score": 3.4
 }

@@ -1,9 +1,8 @@
 Please search for and compile all available documentation relevant to proxy attributes, representation bias, and causal or statistical methods for detecting when protected characteristics are indirectly encoded in AI system inputs, outputs, or datasets. Prioritize evidence from the following uploaded sources:
 
 - *Fairness and Machine Learning* (Barocas, Hardt, Narayanan) – “proxy discrimination”, “representational harm”, “latent variable inference”.
-- *Counterfactual Fairness* (Kusner et al., NIPS 2017) – causal graphs, proxy pathways, structural relationships.
 - NIST SP 1270 – systemic/statistical bias, proxy attributes, latent variable harms.
-- any other possible resources
+- any other possible resources or official documentation about this branch from your own database
 
 The response must:
 1. Extract verbatim evidence with page numbers describing:
