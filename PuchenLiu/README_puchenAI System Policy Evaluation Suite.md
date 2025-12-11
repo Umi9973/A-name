@@ -19,7 +19,7 @@ All outputs include reproducible JSON, CSV, and TXT files.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 PuchenLiu/
 │
@@ -50,7 +50,7 @@ PuchenLiu/
 
 ---
 
-## 🧩 Module Overview
+##  Module Overview
 
 ### 1. Automated Agent Disclosure in User-Facing Interactions  
 Evaluates whether AI systems properly disclose:
@@ -96,7 +96,7 @@ Measures how clearly a model communicates:
 
 ---
 
-## ▶️ Running Any Evaluation
+##  Running Any Evaluation
 
 python DeepSeek-GPT4-score.py  
 python Qwen-GPT4-score.py  
@@ -104,18 +104,18 @@ python GPT5-automated.py
 
 ---
 
-## 📦 Output Formats
+##  Output Formats
 
 JSON • CSV • TXT • PROMPT TXT
 
 ---
 
-## 🔁 Reproducibility  
+##  Reproducibility  
 Deterministic temperature, logged prompts, version-specific folders.
 
 ---
 
-## 📜 Citation
+##  Citation
 
 Liu, Puchen. “AI System Policy Evaluation Suite…” 2025.
 
