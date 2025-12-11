@@ -11,7 +11,7 @@ Counterfectual Fairness/
 │
 ├── counterfectual.json                 # Input prompt
 ├── generate_response_counter.ipynb    # Notebook to generate model responses
-├── score_counter.ipynb                # Notebook to score responses
+├── score_counterfectual.ipynb                # Notebook to score responses
 │
 └── output/
     ├── counterfectual_output.jsonl     # Generated model responses
