@@ -7,7 +7,7 @@ The process uses a structured prompt dataset, generates model responses through 
 
 ## Folder Structure
 ```text
-body-image-harm/
+Body Image Harm/
 │
 ├── body_image.json                 # Input prompt
 ├── generate_response_body.ipynb    # Notebook to generate model responses
